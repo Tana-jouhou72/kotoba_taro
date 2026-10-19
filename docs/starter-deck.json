@@ -1,0 +1,3179 @@
+{
+ "app": "kotoba",
+ "version": 1,
+ "source": "2000 words japanese N2 — starter deck",
+ "cards": [
+  {
+   "word": "ふるさと",
+   "reading": "ふるさと",
+   "meaning": "hometown; birthplace",
+   "note": "hometown",
+   "nuance": "An emotional, nostalgic word for the place you grew up. More literary than 地元 or 出身地. Also written 故郷 (which can also be read こきょう).",
+   "examples": [
+    {
+     "ja": "年末はふるさとに帰って家族と過ごします。",
+     "en": "At the end of the year I go back to my hometown and spend time with my family."
+    },
+    {
+     "ja": "この歌を聞くと、ふるさとの景色を思い出す。",
+     "en": "When I hear this song, I remember the scenery of my hometown."
+    }
+   ],
+   "order": 1,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-1",
+   "meaningJa": "自分が生まれ育った土地。",
+   "nuanceJa": "生まれ育った場所を、懐かしさや愛着をこめて言う言葉。「地元」や「出身地」より感情がこもっていて、文学的な響きがある。「故郷」とも書き、「こきょう」と読むこともある。"
+  },
+  {
+   "word": "に関心",
+   "reading": "にかんしん",
+   "meaning": "interest in (something)",
+   "note": "interest",
+   "nuance": "関心 = interest/concern. Patterns: 〜に関心がある / 〜に関心を持つ / 関心が高まる. More formal than 興味 and common for social issues (政治への関心). 無関心 = indifference.",
+   "examples": [
+    {
+     "ja": "最近、若者の間で環境問題への関心が高まっている。",
+     "en": "Interest in environmental issues has recently been growing among young people."
+    },
+    {
+     "ja": "彼は政治にまったく関心がないようだ。",
+     "en": "He seems to have no interest in politics at all."
+    }
+   ],
+   "order": 2,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-2",
+   "meaningJa": "ある物事に心をひかれて、もっと知りたいと思う気持ち。",
+   "nuanceJa": "「〜に関心がある」「〜に関心を持つ」「関心が高まる」の形でよく使う。「興味」より硬い言い方で、政治や社会問題などによく使われる。反対は「無関心」。"
+  },
+  {
+   "word": "哲学",
+   "reading": "てつがく",
+   "meaning": "philosophy",
+   "note": "philosophy",
+   "nuance": "The academic field of philosophy, and also a personal set of principles: 人生哲学 (philosophy of life), 経営哲学 (management philosophy).",
+   "examples": [
+    {
+     "ja": "大学で西洋哲学を専攻しました。",
+     "en": "I majored in Western philosophy at university."
+    },
+    {
+     "ja": "社長には独自の経営哲学がある。",
+     "en": "The company president has his own business philosophy."
+    }
+   ],
+   "order": 3,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-3",
+   "meaningJa": "世界や人生、ものの考え方の根本を理論的に探る学問。",
+   "nuanceJa": "学問の名前として使うほか、「人生哲学」「経営哲学」のように、その人が大切にしている信念や考え方の意味でも使う。"
+  },
+  {
+   "word": "利益",
+   "reading": "りえき",
+   "meaning": "profit; benefit",
+   "note": "profit",
+   "nuance": "Financial profit (利益を上げる / 利益が出る) or benefit/interest (公共の利益 = the public interest). Opposite: 損失 (loss). もうけ is the casual word for profit.",
+   "examples": [
+    {
+     "ja": "今年は売上が伸び、大きな利益を上げた。",
+     "en": "Sales grew this year and we made a big profit."
+    },
+    {
+     "ja": "自分の利益だけを考えて行動してはいけない。",
+     "en": "You shouldn't act thinking only about your own benefit."
+    }
+   ],
+   "order": 4,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-4",
+   "meaningJa": "商売などで得るもうけ。また、ためになること。",
+   "nuanceJa": "お金のもうけ（利益を上げる・利益が出る）にも、ためになること（公共の利益）にも使う。反対は「損失」。会話では「もうけ」とも言う。"
+  },
+  {
+   "word": "涙",
+   "reading": "なみだ",
+   "meaning": "tears; a tear",
+   "note": "tear",
+   "nuance": "Common collocations: 涙が出る / 涙がこぼれる / 涙が止まらない, 涙を流す (shed tears). 嬉し涙 = tears of joy. 涙ぐむ = eyes well up.",
+   "examples": [
+    {
+     "ja": "映画の最後のシーンで涙が止まらなかった。",
+     "en": "I couldn't stop crying at the last scene of the movie."
+    },
+    {
+     "ja": "彼女は涙を流しながら別れを告げた。",
+     "en": "She said goodbye with tears running down her face."
+    }
+   ],
+   "order": 5,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-5",
+   "meaningJa": "悲しいときやうれしいときなどに、目から出る液体。",
+   "nuanceJa": "「涙が出る」「涙がこぼれる」「涙が止まらない」「涙を流す」の形でよく使う。うれしくて流す涙は「うれし涙」、目に涙がたまることは「涙ぐむ」と言う。"
+  },
+  {
+   "word": "豊か",
+   "reading": "ゆたか",
+   "meaning": "rich; abundant; plentiful",
+   "note": "",
+   "nuance": "な-adjective meaning rich in amount or quality, not only money: 豊かな自然, 豊かな生活, 経験豊か (experienced), 表現が豊か (expressive). For wealthy people, 金持ち is more direct.",
+   "examples": [
+    {
+     "ja": "この町は自然が豊かで、空気もきれいだ。",
+     "en": "This town is rich in nature, and the air is clean."
+    },
+    {
+     "ja": "彼は経験豊かなエンジニアだ。",
+     "en": "He is a highly experienced engineer."
+    }
+   ],
+   "order": 6,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-6",
+   "meaningJa": "物や量がたっぷりあって、満ち足りている様子。",
+   "nuanceJa": "お金だけでなく、量や質が十分なことに広く使う（豊かな自然、豊かな生活、経験豊か、表現が豊か）。お金持ちの人を直接言うなら「金持ち」のほうが普通。"
+  },
+  {
+   "word": "地域",
+   "reading": "ちいき",
+   "meaning": "area; region; local community",
+   "note": "area, region",
+   "nuance": "A defined area or local community, often in social/administrative contexts: 地域社会, 地域の住民, 地域によって異なる. Compare 地方 (broad region, or areas outside big cities) and 地区 (district).",
+   "examples": [
+    {
+     "ja": "この地域では毎年夏に祭りが行われる。",
+     "en": "A festival is held in this area every summer."
+    },
+    {
+     "ja": "雨の量は地域によって大きく異なる。",
+     "en": "The amount of rainfall varies greatly by region."
+    }
+   ],
+   "order": 7,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-7",
+   "meaningJa": "ある範囲で区切られた土地。また、そこに住む人々のまとまり。",
+   "nuanceJa": "「地域社会」「地域の住民」「地域によって異なる」のように、社会的・行政的な話でよく使う。「地方」はもっと広い範囲や都会以外の土地を、「地区」はもっと細かい区画を指す。"
+  },
+  {
+   "word": "印象",
+   "reading": "いんしょう",
+   "meaning": "impression",
+   "note": "impression",
+   "nuance": "印象を受ける (get an impression), 印象を与える (give an impression), 第一印象 (first impression), 印象的 (memorable, striking).",
+   "examples": [
+    {
+     "ja": "面接では第一印象がとても大切だ。",
+     "en": "In interviews, first impressions are very important."
+    },
+    {
+     "ja": "その町は静かで落ち着いた印象を受けた。",
+     "en": "I got the impression that the town was quiet and calm."
+    }
+   ],
+   "order": 8,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-8",
+   "meaningJa": "見たり聞いたりしたときに、心に残る感じ。",
+   "nuanceJa": "「印象を受ける」「印象を与える」「第一印象」の形でよく使う。強く心に残るものは「印象的」と言う。"
+  },
+  {
+   "word": "ーかねる",
+   "reading": "かねる",
+   "meaning": "can't (bring oneself to); find it hard to",
+   "note": "できない 決めかねる",
+   "nuance": "Attaches to the verb ます-stem: 決めかねる, 賛成しかねる. A polite, formal way to say you can't or won't do something, common in business (お答えしかねます). Careful: 〜かねない means the opposite — 'might well (do something bad)'.",
+   "examples": [
+    {
+     "ja": "申し訳ございませんが、そのご要望にはお応えしかねます。",
+     "en": "We're very sorry, but we are unable to meet that request."
+    },
+    {
+     "ja": "どちらの案がいいか、まだ決めかねている。",
+     "en": "I still can't decide which plan is better."
+    }
+   ],
+   "order": 9,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-9",
+   "meaningJa": "動詞のます形について、「〜しようとしても、なかなかできない」「〜することはできない」という意味を表す。",
+   "nuanceJa": "「決めかねる」「賛成しかねる」のように使う。ビジネスでは「お答えしかねます」のように、丁寧に断る表現になる。「〜かねない」は「（悪いことが）起こるおそれがある」という逆の意味なので注意。"
+  },
+  {
+   "word": "電池",
+   "reading": "でんち",
+   "meaning": "battery (dry cell)",
+   "note": "battery",
+   "nuance": "Mainly small replaceable batteries: 単三電池 (AA), 単四電池 (AAA). For phones and laptops, バッテリー is more common. 電池が切れる = the battery runs out. 充電池 = rechargeable battery.",
+   "examples": [
+    {
+     "ja": "リモコンの電池が切れたみたいだ。",
+     "en": "Looks like the remote's batteries have run out."
+    },
+    {
+     "ja": "単三電池を4本買ってきてください。",
+     "en": "Please buy four AA batteries."
+    }
+   ],
+   "order": 10,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-10",
+   "meaningJa": "化学反応などを利用して電気を起こし、ためておく器具。",
+   "nuanceJa": "主にリモコンや時計などに入れる交換式のもの（単三電池・単四電池）に使う。スマホやパソコンのものは「バッテリー」と言うことが多い。電気がなくなることは「電池が切れる」。"
+  },
+  {
+   "word": "沈む",
+   "reading": "しずむ",
+   "meaning": "to sink; to set (sun); to feel down",
+   "note": "sink",
+   "nuance": "Physical sinking (船が沈む), the sun setting (日が沈む), and a low mood (気分が沈む). Transitive form: 沈める (to sink something).",
+   "examples": [
+    {
+     "ja": "嵐で船が海に沈んだ。",
+     "en": "The ship sank into the sea during the storm."
+    },
+    {
+     "ja": "夕日が山の向こうに沈んでいく。",
+     "en": "The evening sun is sinking behind the mountains."
+    }
+   ],
+   "order": 11,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-11",
+   "meaningJa": "水の中などで、物が下のほうへ下がっていく。また、太陽が地平線の下に隠れる。",
+   "nuanceJa": "「船が沈む」「日が沈む」のほか、「気分が沈む」のように気持ちが落ち込む意味でも使う。他動詞は「沈める」。"
+  },
+  {
+   "word": "ゆうべ",
+   "reading": "ゆうべ",
+   "meaning": "last night",
+   "note": "last night",
+   "nuance": "Casual, spoken. The formal equivalent is 昨夜 (さくや). Written 夕べ, it can also mean 'evening' (音楽の夕べ = a musical evening).",
+   "examples": [
+    {
+     "ja": "ゆうべは遅くまで勉強していたので眠い。",
+     "en": "I'm sleepy because I studied until late last night."
+    },
+    {
+     "ja": "ゆうべ見た夢をよく覚えている。",
+     "en": "I remember the dream I had last night clearly."
+    }
+   ],
+   "order": 12,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-12",
+   "meaningJa": "きのうの夜。",
+   "nuanceJa": "会話で使うくだけた言い方で、改まった言い方は「昨夜（さくや）」。「夕べ」と書くと「夕方」の意味もあり、「音楽の夕べ」のように催しの名前にも使う。"
+  },
+  {
+   "word": "批判",
+   "reading": "ひはん",
+   "meaning": "criticism",
+   "note": "critisism",
+   "nuance": "Criticizing something as wrong or bad: 〜を批判する, 批判を受ける / 批判を浴びる. Heavier than 文句 (complaint). 批評 is critique or review (e.g. of art) and can be neutral.",
+   "examples": [
+    {
+     "ja": "政府の対応は多くの国民から批判を浴びた。",
+     "en": "The government's response drew criticism from many citizens."
+    },
+    {
+     "ja": "他人を批判する前に、自分の行動を見直すべきだ。",
+     "en": "Before criticizing others, you should reflect on your own actions."
+    }
+   ],
+   "order": 13,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-13",
+   "meaningJa": "物事のよくない点や間違いを指摘して、意見を述べること。",
+   "nuanceJa": "「〜を批判する」「批判を受ける」「批判を浴びる」の形でよく使う。「文句」より重く、公的な場面で使う。「批評」は作品などの良し悪しを評価することで、中立的にも使える。"
+  },
+  {
+   "word": "旅館",
+   "reading": "りょかん",
+   "meaning": "Japanese-style inn (ryokan)",
+   "note": "",
+   "nuance": "A traditional inn with tatami rooms, often with a hot spring and dinner/breakfast included. Compare ホテル (Western-style hotel) and 民宿 (cheaper, family-run lodging).",
+   "examples": [
+    {
+     "ja": "温泉旅館に泊まって、ゆっくり休んだ。",
+     "en": "I stayed at a hot-spring inn and had a good rest."
+    },
+    {
+     "ja": "旅館の夕食はとても豪華だった。",
+     "en": "Dinner at the ryokan was very luxurious."
+    }
+   ],
+   "order": 14,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-14",
+   "meaningJa": "和室に泊まる、日本式の宿泊施設。",
+   "nuanceJa": "畳の部屋で、温泉や夕食・朝食がついていることが多い。洋式の「ホテル」や、家族で営む安い「民宿」と区別して使う。"
+  },
+  {
+   "word": "分ける",
+   "reading": "わける",
+   "meaning": "to divide; to split; to share; to separate",
+   "note": "share",
+   "nuance": "Splitting something into parts or groups: ケーキを分ける, 2つのグループに分ける. 'Share' in the sense of dividing among people (分け合う = share with each other). For sharing information, use 共有する.",
+   "examples": [
+    {
+     "ja": "ピザを4人で分けて食べた。",
+     "en": "The four of us split the pizza."
+    },
+    {
+     "ja": "ごみは燃えるごみと燃えないごみに分けて出してください。",
+     "en": "Please separate your garbage into burnable and non-burnable."
+    }
+   ],
+   "order": 15,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-15",
+   "meaningJa": "一つのものを、いくつかの部分にする。また、種類ごとに区別する。",
+   "nuanceJa": "「ケーキを分ける」「グループに分ける」「ごみを分ける」のように使う。人どうしで分け合うことは「分け合う」。情報を共有する意味では「共有する」を使う。"
+  },
+  {
+   "word": "長生き",
+   "reading": "ながいき",
+   "meaning": "long life; living long",
+   "note": "longevity, live long",
+   "nuance": "Noun / する-verb: 長生きする. Everyday word; the formal equivalent is 長寿 (ちょうじゅ).",
+   "examples": [
+    {
+     "ja": "祖母は健康に気をつけて、95歳まで長生きした。",
+     "en": "My grandmother took care of her health and lived to 95."
+    },
+    {
+     "ja": "長生きの秘訣はよく笑うことだそうだ。",
+     "en": "They say the secret to a long life is laughing a lot."
+    }
+   ],
+   "order": 16,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-16",
+   "meaningJa": "長い年月を生きること。",
+   "nuanceJa": "「長生きする」の形で日常的に使う。改まった言い方は「長寿」。"
+  },
+  {
+   "word": "たっぷり",
+   "reading": "たっぷり",
+   "meaning": "plenty; ample; generous amount",
+   "note": "a lot of, plenty of",
+   "nuance": "Adverb / な-adjective for a generous, more-than-enough amount: 時間はたっぷりある, たっぷりのソース, 自信たっぷり (full of confidence). Feels fuller and warmer than たくさん.",
+   "examples": [
+    {
+     "ja": "時間はたっぷりあるから、急がなくていいよ。",
+     "en": "We have plenty of time, so no need to hurry."
+    },
+    {
+     "ja": "パンにバターをたっぷり塗った。",
+     "en": "I spread plenty of butter on the bread."
+    }
+   ],
+   "order": 17,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-17",
+   "meaningJa": "十分すぎるほど、量が多い様子。",
+   "nuanceJa": "「時間はたっぷりある」「たっぷりのソース」「自信たっぷり」のように使う。「たくさん」より、あふれるほど満ちている感じが強く、温かみがある。"
+  },
+  {
+   "word": "がっかり",
+   "reading": "がっかり",
+   "meaning": "disappointed; let down",
+   "note": "dissapointed",
+   "nuance": "Used as がっかりする when expectations aren't met. Casual-neutral; 失望する is stronger and more formal.",
+   "examples": [
+    {
+     "ja": "楽しみにしていた試合が中止になって、がっかりした。",
+     "en": "I was disappointed that the match I'd been looking forward to was cancelled."
+    },
+    {
+     "ja": "そんなにがっかりしないで。また次があるよ。",
+     "en": "Don't be so disappointed. There's always next time."
+    }
+   ],
+   "order": 18,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-18",
+   "meaningJa": "期待していたことがかなわず、元気をなくす様子。",
+   "nuanceJa": "「がっかりする」の形で日常的に使う。「失望する」はもっと強く、硬い言い方。"
+  },
+  {
+   "word": "めぐる",
+   "reading": "めぐる",
+   "meaning": "to go around; (をめぐって) over, concerning",
+   "note": "over, e.g ２人の男性が一人の女性をめぐって喧嘩した。",
+   "nuance": "Kanji 巡る. Literal: travel around (名所をめぐる) or come around again (季節がめぐる). N2 grammar: 〜をめぐって / 〜をめぐる = 'over / concerning' a disputed issue, used with words like 争い, 議論, 問題.",
+   "examples": [
+    {
+     "ja": "新しい空港の建設をめぐって、住民の意見が分かれている。",
+     "en": "Residents' opinions are divided over the construction of the new airport."
+    },
+    {
+     "ja": "休みの日に京都のお寺をめぐった。",
+     "en": "On my day off, I toured temples in Kyoto."
+    }
+   ],
+   "order": 19,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-19",
+   "meaningJa": "まわりを回る。いろいろな場所を順に回る。",
+   "nuanceJa": "「名所をめぐる」「季節がめぐる」のように使う。N2文法の「〜をめぐって／〜をめぐる」は「〜について（争い・議論などが起こる）」という意味で、「争い」「議論」「問題」などとよく使う。漢字は「巡る」。"
+  },
+  {
+   "word": "広告",
+   "reading": "こうこく",
+   "meaning": "advertisement; ad",
+   "note": "ads",
+   "nuance": "The general word for an ad: 新聞広告, ネット広告, 広告を出す (run an ad). コマーシャル / CM = a TV or radio commercial. 宣伝 = promotion/publicity (broader).",
+   "examples": [
+    {
+     "ja": "駅の広告を見て、そのイベントを知った。",
+     "en": "I found out about that event from an ad at the station."
+    },
+    {
+     "ja": "会社は新商品の広告に多額の費用をかけた。",
+     "en": "The company spent a lot of money advertising the new product."
+    }
+   ],
+   "order": 20,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-20",
+   "meaningJa": "商品や催しなどを多くの人に知らせること。また、そのための文や絵。",
+   "nuanceJa": "「新聞広告」「ネット広告」「広告を出す」のように使う広い言葉。テレビやラジオのものは「コマーシャル（CM）」、広く知らせる活動は「宣伝」と言う。"
+  },
+  {
+   "word": "あきらめる",
+   "reading": "あきらめる",
+   "meaning": "to give up",
+   "note": "give up",
+   "nuance": "Kanji 諦める. Giving up a hope or goal (夢をあきらめる) with a feeling of resignation. Compare やめる = simply stop doing something.",
+   "examples": [
+    {
+     "ja": "最後まであきらめないで頑張ろう。",
+     "en": "Let's not give up and keep going until the end."
+    },
+    {
+     "ja": "雨が強くなったので、登山はあきらめた。",
+     "en": "The rain got heavier, so we gave up on the climb."
+    }
+   ],
+   "order": 21,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-21",
+   "meaningJa": "望んでいたことを、もう無理だと思ってやめる。",
+   "nuanceJa": "「夢をあきらめる」のように、希望や目標を手放すときに使い、残念な気持ちがこもる。ただ行動を止めるだけなら「やめる」。漢字は「諦める」。"
+  },
+  {
+   "word": "薄い",
+   "reading": "うすい",
+   "meaning": "thin; light (color); weak (taste)",
+   "note": "Thin",
+   "nuance": "Thin in thickness (薄い本), pale color (薄い青), weak taste (味が薄い), sparse (髪が薄い). Opposites: 厚い (thick) and 濃い (dark, strong).",
+   "examples": [
+    {
+     "ja": "このスープは味が少し薄い。",
+     "en": "This soup is a little bland."
+    },
+    {
+     "ja": "薄いコートでは寒いよ。",
+     "en": "You'll be cold in a thin coat."
+    }
+   ],
+   "order": 22,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-22",
+   "meaningJa": "厚みが少ない。また、色や味などの度合いが弱い。",
+   "nuanceJa": "厚さ（薄い本）、色（薄い青）、味（味が薄い）、量（髪が薄い）など広く使う。反対は「厚い」（厚さ）と「濃い」（色・味）。"
+  },
+  {
+   "word": "水道料金",
+   "reading": "すいどうりょうきん",
+   "meaning": "water bill; water charges",
+   "note": "charge, fare, fee",
+   "nuance": "料金 = a charge or fee for a service: 電気料金, 携帯料金, 入場料金. 水道 = water supply. Related: 代 (casual, 電気代), 運賃 (transport fare), 費用 (costs).",
+   "examples": [
+    {
+     "ja": "夏は水道料金が高くなりがちだ。",
+     "en": "Water bills tend to go up in summer."
+    },
+    {
+     "ja": "毎月の水道料金はコンビニで払っている。",
+     "en": "I pay my monthly water bill at a convenience store."
+    }
+   ],
+   "order": 23,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-23",
+   "meaningJa": "水道を使った分に対して払うお金。",
+   "nuanceJa": "「料金」はサービスに対して払うお金で、「電気料金」「携帯料金」「入場料金」のように使う。会話では「電気代」のように「〜代」もよく使う。乗り物の代金は「運賃」、かかるお金全体は「費用」。"
+  },
+  {
+   "word": "地方",
+   "reading": "ちほう",
+   "meaning": "region; the provinces; rural areas",
+   "note": "region",
+   "nuance": "Either a broad region (関東地方, 東北地方) or areas outside the big cities (地方に住む, 地方の大学). Compare 地域 (a local area or community).",
+   "examples": [
+    {
+     "ja": "地方では若い人の数が減り続けている。",
+     "en": "In rural areas, the number of young people keeps falling."
+    },
+    {
+     "ja": "明日は関東地方で雪が降るでしょう。",
+     "en": "It will probably snow in the Kanto region tomorrow."
+    }
+   ],
+   "order": 24,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-24",
+   "meaningJa": "国の中の、ひとまとまりの広い地域。また、首都や大都市以外の土地。",
+   "nuanceJa": "「関東地方」「東北地方」のような広い区分にも、「地方に住む」「地方の大学」のように都会以外の土地の意味にも使う。「地域」は身近な一定の範囲や、そこに住む人々のまとまりを指す。"
+  },
+  {
+   "word": "あっという間に",
+   "reading": "あっというまに",
+   "meaning": "in an instant; in no time",
+   "note": "in instant, in blink of an eye",
+   "nuance": "Literally 'in the time it takes to say ah'. Often used for time passing quickly: 一年があっという間に過ぎた.",
+   "examples": [
+    {
+     "ja": "楽しい時間はあっという間に過ぎてしまう。",
+     "en": "Fun times pass in the blink of an eye."
+    },
+    {
+     "ja": "ケーキはあっという間になくなった。",
+     "en": "The cake was gone in no time."
+    }
+   ],
+   "order": 25,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-25",
+   "meaningJa": "とても短い時間のうちに。",
+   "nuanceJa": "「あっ」と言うくらいの短い間に、という意味。「一年があっという間に過ぎた」のように、時間が早く過ぎることによく使う。"
+  },
+  {
+   "word": "指示",
+   "reading": "しじ",
+   "meaning": "instructions; directions",
+   "note": "instruct",
+   "nuance": "Instructions from someone in charge: 指示を出す / 指示を受ける / 指示に従う. Compare 命令 (order, stronger) and 指導 (guidance, coaching).",
+   "examples": [
+    {
+     "ja": "上司の指示に従って作業を進めてください。",
+     "en": "Please proceed with the work following your boss's instructions."
+    },
+    {
+     "ja": "先生から特に指示がなかったので、自分で考えた。",
+     "en": "There were no particular instructions from the teacher, so I worked it out myself."
+    }
+   ],
+   "order": 26,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-26",
+   "meaningJa": "何をどうするか、指し示して命じること。また、その内容。",
+   "nuanceJa": "上の立場の人が出すもので、「指示を出す」「指示を受ける」「指示に従う」の形でよく使う。「命令」はもっと強く、「指導」は教えて導くこと。"
+  },
+  {
+   "word": "日光",
+   "reading": "にっこう",
+   "meaning": "sunlight",
+   "note": "sunshine, sunlight",
+   "nuance": "Formal/technical word for sunlight: 日光に当たる, 直射日光 (direct sunlight, often on product labels). Everyday speech often uses 日差し or 日 (日が当たる). Also the name of the city Nikko.",
+   "examples": [
+    {
+     "ja": "直射日光を避けて保存してください。",
+     "en": "Store away from direct sunlight."
+    },
+    {
+     "ja": "植物には適度な日光が必要だ。",
+     "en": "Plants need a moderate amount of sunlight."
+    }
+   ],
+   "order": 27,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-27",
+   "meaningJa": "太陽の光。",
+   "nuanceJa": "「日光に当たる」「直射日光を避ける」のように使う、やや硬い言葉で、商品の注意書きによく出てくる。日常会話では「日差し」や「日（日が当たる）」もよく使う。栃木県の地名「日光」でもある。"
+  },
+  {
+   "word": "組み合わせ",
+   "reading": "くみあわせ",
+   "meaning": "combination; pairing; matchup",
+   "note": "combination",
+   "nuance": "Noun of 組み合わせる (to combine). Used for pairings, combos and tournament draws: 色の組み合わせ, 試合の組み合わせ.",
+   "examples": [
+    {
+     "ja": "この服は色の組み合わせがおしゃれだ。",
+     "en": "The color combination on these clothes is stylish."
+    },
+    {
+     "ja": "トーナメントの組み合わせが発表された。",
+     "en": "The tournament matchups have been announced."
+    }
+   ],
+   "order": 28,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-28",
+   "meaningJa": "いくつかのものを合わせて、一つのまとまりにすること。また、その取り合わせ方。",
+   "nuanceJa": "「色の組み合わせ」のような取り合わせや、「試合の組み合わせ」のような対戦相手の決め方にも使う。動詞は「組み合わせる」。"
+  },
+  {
+   "word": "本社、本部",
+   "reading": "ほんしゃ、ほんぶ",
+   "meaning": "head office; headquarters",
+   "note": "headquarters, head office",
+   "nuance": "本社 = a company's head office (opposite: 支社, branch office). 本部 = the headquarters of an organization or operation (警察本部, 対策本部), not limited to companies.",
+   "examples": [
+    {
+     "ja": "本社は東京にあり、大阪に支社がある。",
+     "en": "The head office is in Tokyo, and there is a branch office in Osaka."
+    },
+    {
+     "ja": "大学の本部で入学の手続きをした。",
+     "en": "I completed my enrollment procedures at the university's main office."
+    }
+   ],
+   "order": 29,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-29",
+   "meaningJa": "本社：会社の中心となる事務所。本部：組織の中心となって、全体をまとめる所。",
+   "nuanceJa": "「本社」は会社だけに使い、反対は「支社」。「本部」は会社に限らず、「警察本部」「対策本部」のように団体や活動の中心にも使う。"
+  },
+  {
+   "word": "欄",
+   "reading": "らん",
+   "meaning": "column; field (on a form); section (of a newspaper)",
+   "note": "section",
+   "nuance": "A box or field to fill in on a form (氏名欄, 備考欄 = remarks field), or a section of a newspaper or magazine (スポーツ欄).",
+   "examples": [
+    {
+     "ja": "この欄に名前と住所を書いてください。",
+     "en": "Please write your name and address in this field."
+    },
+    {
+     "ja": "毎朝、新聞のスポーツ欄を読む。",
+     "en": "I read the sports section of the newspaper every morning."
+    }
+   ],
+   "order": 30,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-30",
+   "meaningJa": "書類などで、書き込むために区切られた部分。また、新聞や雑誌で、ある内容のために設けられた部分。",
+   "nuanceJa": "「氏名欄」「備考欄」のような記入する場所や、「スポーツ欄」のような新聞の区分に使う。"
+  },
+  {
+   "word": "役割",
+   "reading": "やくわり",
+   "meaning": "role; part; function",
+   "note": "Role",
+   "nuance": "The part or function someone or something plays: 役割を果たす (fulfill a role), 役割分担 (dividing up roles). 役 alone also means a role, including in a play.",
+   "examples": [
+    {
+     "ja": "チームの中で自分の役割をしっかり果たしたい。",
+     "en": "I want to properly fulfill my role on the team."
+    },
+    {
+     "ja": "森は二酸化炭素を吸収する重要な役割を持っている。",
+     "en": "Forests play an important role in absorbing carbon dioxide."
+    }
+   ],
+   "order": 31,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-31",
+   "meaningJa": "それぞれに割り当てられた仕事や働き。",
+   "nuanceJa": "「役割を果たす」「役割分担」の形でよく使う。人だけでなく、物や仕組みの働きにも使える（森の役割）。「役」だけでも、劇の役などの意味がある。"
+  },
+  {
+   "word": "芸術",
+   "reading": "げいじゅつ",
+   "meaning": "art; the arts",
+   "note": "art",
+   "nuance": "Art as a broad field (芸術作品, 芸術家). 美術 refers more to the visual/fine arts (painting, sculpture); アート is a casual loanword.",
+   "examples": [
+    {
+     "ja": "パリは芸術の都と呼ばれている。",
+     "en": "Paris is called the city of art."
+    },
+    {
+     "ja": "彼の作品は芸術として高く評価されている。",
+     "en": "His work is highly regarded as art."
+    }
+   ],
+   "order": 32,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-32",
+   "meaningJa": "絵・音楽・文学などで美しさを作り出し、表現する活動。また、その作品。",
+   "nuanceJa": "「芸術作品」「芸術家」のように広い分野を指す。「美術」は絵や彫刻など目で見る芸術、「アート」はカジュアルな言い方。"
+  },
+  {
+   "word": "やかん",
+   "reading": "やかん",
+   "meaning": "kettle (stovetop)",
+   "note": "kettle",
+   "nuance": "A kettle for boiling water on the stove: やかんでお湯を沸かす. An electric kettle is 電気ケトル or 電気ポット.",
+   "examples": [
+    {
+     "ja": "やかんでお湯を沸かしてお茶を入れた。",
+     "en": "I boiled water in the kettle and made tea."
+    },
+    {
+     "ja": "やかんが鳴ったら火を止めてね。",
+     "en": "Turn off the heat when the kettle whistles."
+    }
+   ],
+   "order": 33,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-33",
+   "meaningJa": "湯をわかすための、注ぎ口と取っ手のついた金属の容器。",
+   "nuanceJa": "コンロで火にかけて使うもの。電気で湯をわかす道具は「電気ケトル」「電気ポット」と言う。"
+  },
+  {
+   "word": "小犬",
+   "reading": "こいぬ",
+   "meaning": "puppy; small dog",
+   "note": "puppies",
+   "nuance": "Also written 子犬 (a baby dog). 小犬 can also mean a small-sized dog. Similar: 子猫 = kitten.",
+   "examples": [
+    {
+     "ja": "公園で小犬が元気に走り回っている。",
+     "en": "A puppy is running around energetically in the park."
+    },
+    {
+     "ja": "友達の家で小犬が3匹生まれた。",
+     "en": "Three puppies were born at my friend's house."
+    }
+   ],
+   "order": 34,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-34",
+   "meaningJa": "生まれてまもない犬。また、体の小さい犬。",
+   "nuanceJa": "「子犬」とも書く。「子犬」は犬の子ども、「小犬」は小型の犬の意味でも使える。猫の子どもは「子猫」。"
+  },
+  {
+   "word": "不足",
+   "reading": "ふそく",
+   "meaning": "shortage; lack; not enough",
+   "note": "not enough",
+   "nuance": "Noun / する-verb: 〜が不足する, 睡眠不足 (lack of sleep), 人手不足 (labor shortage), 運動不足 (lack of exercise). More formal than 足りない.",
+   "examples": [
+    {
+     "ja": "最近、睡眠不足で集中できない。",
+     "en": "Lately I can't concentrate because of lack of sleep."
+    },
+    {
+     "ja": "多くの会社が人手不足に悩んでいる。",
+     "en": "Many companies are struggling with labor shortages."
+    }
+   ],
+   "order": 35,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-35",
+   "meaningJa": "必要な量や数に足りないこと。",
+   "nuanceJa": "「〜が不足する」「睡眠不足」「人手不足」「運動不足」の形でよく使う。「足りない」より硬い言い方。"
+  },
+  {
+   "word": "適切",
+   "reading": "てきせつ",
+   "meaning": "appropriate; proper; suitable",
+   "note": "proper",
+   "nuance": "な-adjective: 適切な判断 / 対応 / 言葉 — suitable for the situation. Formal. Opposite: 不適切. Note 適当 often means 'careless, half-hearted' in speech, so 適切 is safer for 'appropriate'.",
+   "examples": [
+    {
+     "ja": "状況に応じて適切な判断をすることが大切だ。",
+     "en": "It's important to make appropriate judgments according to the situation."
+    },
+    {
+     "ja": "その表現はビジネスメールには適切ではない。",
+     "en": "That expression isn't appropriate for a business email."
+    }
+   ],
+   "order": 36,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-36",
+   "meaningJa": "その場の状況や目的に、よく合っていること。",
+   "nuanceJa": "「適切な判断」「適切な対応」「適切な言葉」のように使う、やや硬い言葉。反対は「不適切」。「適当」は会話で「いいかげん」の意味になることが多いので、「ちょうどよい」と言いたいときは「適切」が安全。"
+  },
+  {
+   "word": "交通",
+   "reading": "こうつう",
+   "meaning": "traffic; transportation",
+   "note": "transportation",
+   "nuance": "交通機関 (means of transport), 交通事故 (traffic accident), 交通渋滞 (traffic jam), 交通の便がいい (good transport access).",
+   "examples": [
+    {
+     "ja": "この町は交通の便がよくて住みやすい。",
+     "en": "This town has good transport links and is easy to live in."
+    },
+    {
+     "ja": "雪のため、交通機関に乱れが出ている。",
+     "en": "Public transport is disrupted because of the snow."
+    }
+   ],
+   "order": 37,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-37",
+   "meaningJa": "人や乗り物が行き来すること。また、そのための手段。",
+   "nuanceJa": "「交通機関」「交通事故」「交通渋滞」「交通の便がいい」のように使う。"
+  },
+  {
+   "word": "あいまい",
+   "reading": "あいまい",
+   "meaning": "vague; ambiguous; unclear",
+   "note": "unclear",
+   "nuance": "な-adjective (曖昧). Unclear because it isn't definite: あいまいな返事 (noncommittal answer), 記憶があいまい (hazy memory). Compare はっきりしない and 不明 (unknown).",
+   "examples": [
+    {
+     "ja": "彼はいつもあいまいな返事しかしない。",
+     "en": "He only ever gives vague answers."
+    },
+    {
+     "ja": "子どもの頃の記憶はあいまいだ。",
+     "en": "My childhood memories are hazy."
+    }
+   ],
+   "order": 38,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-38",
+   "meaningJa": "はっきりしなくて、確かでない様子。",
+   "nuanceJa": "「あいまいな返事」「記憶があいまいだ」のように、どちらとも決まらない、ぼんやりしたことに使う。「はっきりしない」に近い。わからないことは「不明」。漢字は「曖昧」。"
+  },
+  {
+   "word": "回復",
+   "reading": "かいふく",
+   "meaning": "recovery",
+   "note": "recovery",
+   "nuance": "Noun / する-verb for health, the economy, weather or trust: 体力が回復する, 景気回復, 信頼を回復する. 治る is more about an illness or injury being cured.",
+   "examples": [
+    {
+     "ja": "手術の後、父は順調に回復している。",
+     "en": "After the surgery, my father is recovering well."
+    },
+    {
+     "ja": "景気の回復にはまだ時間がかかりそうだ。",
+     "en": "It looks like the economic recovery will take more time."
+    }
+   ],
+   "order": 39,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-39",
+   "meaningJa": "悪くなったものが、もとのよい状態に戻ること。",
+   "nuanceJa": "体力（体力が回復する）、経済（景気回復）、天気、信用（信頼を回復する）など広く使う。「治る」は病気やけがが治ることに使う。"
+  },
+  {
+   "word": "わずか",
+   "reading": "わずか",
+   "meaning": "only a little; just a few; slight",
+   "note": "abit a few",
+   "nuance": "Kanji 僅か. Emphasizes how small an amount, number or time is: わずか3日で, わずかな差. More formal than ちょっと / 少し; often translates as 'only' or 'just'.",
+   "examples": [
+    {
+     "ja": "わずか一点の差で試合に負けた。",
+     "en": "We lost the game by just one point."
+    },
+    {
+     "ja": "残りの時間はわずかだ。",
+     "en": "There's only a little time left."
+    }
+   ],
+   "order": 40,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-40",
+   "meaningJa": "数や量、時間などがとても少ない様子。",
+   "nuanceJa": "「わずか3日で」「わずかな差」のように、少なさを強調する。「ちょっと」「少し」より硬い言い方で、「ほんの〜だけ」という気持ちを表す。漢字は「僅か」。"
+  },
+  {
+   "word": "判断",
+   "reading": "はんだん",
+   "meaning": "judgment; decision",
+   "note": "decide",
+   "nuance": "Judging or deciding based on thinking about the situation: 判断する, 判断力 (judgment), 判断に迷う (be unsure how to decide). Compare 決める (decide, general) and 決断 (a bold, final decision).",
+   "examples": [
+    {
+     "ja": "最終的な判断はあなたに任せます。",
+     "en": "I'll leave the final decision to you."
+    },
+    {
+     "ja": "見た目だけで人を判断してはいけない。",
+     "en": "You shouldn't judge people by their appearance alone."
+    }
+   ],
+   "order": 41,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-41",
+   "meaningJa": "物事についてよく考えて、どうするか、どうであるかを決めること。",
+   "nuanceJa": "「判断する」「判断力」「判断に迷う」の形でよく使う。「決める」は一般的な言い方、「決断」は思い切って最終的に決めること。"
+  },
+  {
+   "word": "種類",
+   "reading": "しゅるい",
+   "meaning": "kind; type; sort",
+   "note": "type",
+   "nuance": "Counts types with numbers: 3種類 (three kinds). Also 種類が多い / 豊富. タイプ is more casual; 種 (しゅ) is a biological species.",
+   "examples": [
+    {
+     "ja": "この店には50種類以上のパンがある。",
+     "en": "This shop has more than 50 kinds of bread."
+    },
+    {
+     "ja": "ごみの種類によって出す日が違う。",
+     "en": "Collection days differ depending on the type of garbage."
+    }
+   ],
+   "order": 42,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-42",
+   "meaningJa": "共通する性質や形によって分けた、それぞれのまとまり。",
+   "nuanceJa": "「3種類」のように数えるときにも使い、「種類が多い」「種類が豊富」とも言う。「タイプ」はカジュアルな言い方。生物の分類は「種（しゅ）」。"
+  },
+  {
+   "word": "書類",
+   "reading": "しょるい",
+   "meaning": "documents; papers",
+   "note": "documents",
+   "nuance": "Official papers and forms: 書類を提出する, 必要書類, 書類審査 (document screening). 文書 (ぶんしょ) is a written document in general.",
+   "examples": [
+    {
+     "ja": "申し込みに必要な書類を準備してください。",
+     "en": "Please prepare the documents required for the application."
+    },
+    {
+     "ja": "机の上に書類が山のように積まれている。",
+     "en": "Papers are piled up like a mountain on the desk."
+    }
+   ],
+   "order": 43,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-43",
+   "meaningJa": "事務などに必要なことを書いた紙。",
+   "nuanceJa": "「書類を提出する」「必要書類」「書類審査」のように、公的・事務的な紙に使う。書かれたもの一般は「文書」。"
+  },
+  {
+   "word": "寿命",
+   "reading": "じゅみょう",
+   "meaning": "lifespan; life expectancy; service life",
+   "note": "life span",
+   "nuance": "For living things (平均寿命 = average life expectancy) and for products (電池の寿命, 寿命が来る = reach the end of its life).",
+   "examples": [
+    {
+     "ja": "日本人の平均寿命は世界でもトップクラスだ。",
+     "en": "Japanese average life expectancy is among the highest in the world."
+    },
+    {
+     "ja": "このパソコンもそろそろ寿命かもしれない。",
+     "en": "This computer might be reaching the end of its life."
+    }
+   ],
+   "order": 44,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-44",
+   "meaningJa": "生きている期間の長さ。また、物が使える期間。",
+   "nuanceJa": "生き物（平均寿命）にも、機械や道具（電池の寿命、パソコンの寿命が来る）にも使う。"
+  },
+  {
+   "word": "不思議",
+   "reading": "ふしぎ",
+   "meaning": "strange; mysterious; wondrous",
+   "note": "strange",
+   "nuance": "な-adjective for something that can't be explained. Often neutral or positive wonder (不思議な体験), unlike 変 (weird, slightly negative). 不思議に思う = to wonder.",
+   "examples": [
+    {
+     "ja": "初めて会ったのに、不思議と昔からの友達のような気がした。",
+     "en": "Even though we'd just met, strangely it felt like we'd been friends for years."
+    },
+    {
+     "ja": "どうして彼が怒ったのか、不思議に思った。",
+     "en": "I wondered why he got angry."
+    }
+   ],
+   "order": 45,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-45",
+   "meaningJa": "どうしてそうなるのか、理由がよくわからない様子。",
+   "nuanceJa": "「不思議な体験」のように、ふつうは中立的、または心をひかれる驚きを表す。「変」は少し悪い意味を含むことが多い。「不思議に思う」は「なぜだろうと思う」。"
+  },
+  {
+   "word": "正面",
+   "reading": "しょうめん",
+   "meaning": "front; straight ahead",
+   "note": "front",
+   "nuance": "The front side or directly ahead: 建物の正面, 正面玄関 (main entrance). Figurative: 正面から向き合う (face something head-on).",
+   "examples": [
+    {
+     "ja": "駅の正面に大きなホテルがある。",
+     "en": "There's a big hotel right in front of the station."
+    },
+    {
+     "ja": "問題から逃げずに、正面から向き合おう。",
+     "en": "Let's face the problem head-on instead of running away."
+    }
+   ],
+   "order": 46,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-46",
+   "meaningJa": "建物などの表側。また、まっすぐ前の方向。",
+   "nuanceJa": "「建物の正面」「正面玄関」のように使う。「正面から向き合う」は、逃げずに問題に立ち向かうという意味。"
+  },
+  {
+   "word": "申し訳ない",
+   "reading": "もうしわけない",
+   "meaning": "I'm very sorry; inexcusable",
+   "note": "",
+   "nuance": "Much more polite and serious than すみません. In business: 申し訳ございません. Also 申し訳ない気持ち = feeling guilty or bad toward someone.",
+   "examples": [
+    {
+     "ja": "ご迷惑をおかけして、本当に申し訳ありません。",
+     "en": "I'm truly sorry for the trouble I've caused."
+    },
+    {
+     "ja": "何度も手伝ってもらって、申し訳ない気持ちになった。",
+     "en": "I felt bad for having them help me so many times."
+    }
+   ],
+   "order": 47,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-47",
+   "meaningJa": "相手に迷惑をかけて、言い訳もできないほど済まないと思う気持ち。",
+   "nuanceJa": "「すみません」よりずっと丁寧で、深くあやまる言い方。ビジネスでは「申し訳ございません」。「申し訳ない気持ち」は、相手に対して悪いと感じる気持ちのこと。"
+  },
+  {
+   "word": "価格",
+   "reading": "かかく",
+   "meaning": "price",
+   "note": "price",
+   "nuance": "Formal/business word for price: 価格が上がる, 低価格, 価格競争 (price competition). 値段 is the everyday word.",
+   "examples": [
+    {
+     "ja": "原料費の上昇で、商品の価格が上がった。",
+     "en": "Product prices went up because of rising material costs."
+    },
+    {
+     "ja": "この店は品質の割に価格が安い。",
+     "en": "This shop's prices are low for the quality."
+    }
+   ],
+   "order": 48,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-48",
+   "meaningJa": "物の値打ちをお金で表したもの。",
+   "nuanceJa": "「価格が上がる」「低価格」「価格競争」のように、ニュースやビジネスで使う硬い言葉。日常では「値段」が普通。"
+  },
+  {
+   "word": "日付",
+   "reading": "ひづけ",
+   "meaning": "date (on the calendar)",
+   "note": "date",
+   "nuance": "The date written on something: 日付を書く, 日付が変わる (pass midnight). 日にち = a day or date, often for scheduling.",
+   "examples": [
+    {
+     "ja": "書類の右上に今日の日付を書いてください。",
+     "en": "Please write today's date in the top right of the document."
+    },
+    {
+     "ja": "話していたら、いつの間にか日付が変わっていた。",
+     "en": "While we were talking, midnight passed before we knew it."
+    }
+   ],
+   "order": 49,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-49",
+   "meaningJa": "何年何月何日という、その日を示すもの。",
+   "nuanceJa": "書類などに書く日のことで、「日付を書く」と言う。「日付が変わる」は夜の12時を過ぎること。予定を立てるときの日は「日にち」とも言う。"
+  },
+  {
+   "word": "通勤",
+   "reading": "つうきん",
+   "meaning": "commuting to work",
+   "note": "",
+   "nuance": "通勤する, 通勤時間 (commute time), 通勤ラッシュ (rush hour), 通勤電車. For school, use 通学.",
+   "examples": [
+    {
+     "ja": "毎日、電車で1時間かけて通勤している。",
+     "en": "I commute for an hour by train every day."
+    },
+    {
+     "ja": "通勤ラッシュを避けるために早めに家を出る。",
+     "en": "I leave home early to avoid the rush hour."
+    }
+   ],
+   "order": 50,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-50",
+   "meaningJa": "仕事をするために、家から会社などへ通うこと。",
+   "nuanceJa": "「通勤する」「通勤時間」「通勤ラッシュ」「通勤電車」のように使う。学校に通う場合は「通学」。"
+  },
+  {
+   "word": "通学",
+   "reading": "つうがく",
+   "meaning": "commuting to school",
+   "note": "",
+   "nuance": "通学する, 通学路 (route to school), 自転車通学 (riding a bike to school). For work, use 通勤.",
+   "examples": [
+    {
+     "ja": "高校までは自転車で通学していた。",
+     "en": "Until high school, I rode my bike to school."
+    },
+    {
+     "ja": "大学の近くに引っ越して、通学時間が短くなった。",
+     "en": "I moved near the university, so my commute to school got shorter."
+    }
+   ],
+   "order": 51,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-51",
+   "meaningJa": "勉強するために、家から学校へ通うこと。",
+   "nuanceJa": "「通学する」「通学路」「自転車通学」のように使う。会社に通う場合は「通勤」。"
+  },
+  {
+   "word": "正確",
+   "reading": "せいかく",
+   "meaning": "accurate; precise; exact",
+   "note": "precise,",
+   "nuance": "な-adjective: 正確な時間 / 情報 / 計算; adverb 正確に. Compare 正しい (correct, right) — 正確 stresses exactness with no errors.",
+   "examples": [
+    {
+     "ja": "正確な情報を集めてから判断しよう。",
+     "en": "Let's gather accurate information before deciding."
+    },
+    {
+     "ja": "この時計は一秒もずれず正確だ。",
+     "en": "This clock is precise, not off by even a second."
+    }
+   ],
+   "order": 52,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-52",
+   "meaningJa": "間違いがなく、事実や基準にぴったり合っている様子。",
+   "nuanceJa": "「正確な時間」「正確な情報」「正確に計算する」のように使う。「正しい」はまちがっていないこと全般で、「正確」はずれやミスがないことを強調する。"
+  },
+  {
+   "word": "光景",
+   "reading": "こうけい",
+   "meaning": "scene; sight; spectacle",
+   "note": "scene, view, sign, spectacle",
+   "nuance": "A scene you actually see, often striking or memorable: 信じられない光景, 美しい光景. 景色 = scenery, 風景 = landscape/view (more about the place itself).",
+   "examples": [
+    {
+     "ja": "山頂から見た光景は一生忘れられない。",
+     "en": "I'll never forget the sight from the summit."
+    },
+    {
+     "ja": "駅前では人々が長い列を作る光景が見られた。",
+     "en": "In front of the station, you could see people forming a long line."
+    }
+   ],
+   "order": 53,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-53",
+   "meaningJa": "目の前に見える、ありさまや様子。",
+   "nuanceJa": "「信じられない光景」「美しい光景」のように、実際に目にした、印象に残る場面に使う。「景色」は自然の眺め、「風景」はその土地の眺めそのものを言う。"
+  },
+  {
+   "word": "片付ける",
+   "reading": "かたづける",
+   "meaning": "to tidy up; to put away; to finish off",
+   "note": "",
+   "nuance": "Tidying a room or putting things back (部屋を片付ける), and also finishing a task (仕事を片付ける). Intransitive: 片付く.",
+   "examples": [
+    {
+     "ja": "週末に部屋を片付けるつもりだ。",
+     "en": "I plan to tidy my room this weekend."
+    },
+    {
+     "ja": "今日中にこの仕事を片付けなければならない。",
+     "en": "I have to get this work done today."
+    }
+   ],
+   "order": 54,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-54",
+   "meaningJa": "散らかっているものを整えて、決まった場所にしまう。また、仕事などを済ませる。",
+   "nuanceJa": "「部屋を片付ける」のように整理するほか、「仕事を片付ける」のように終わらせる意味でも使う。自動詞は「片付く」。"
+  },
+  {
+   "word": "踊り",
+   "reading": "おどり",
+   "meaning": "dance; dancing",
+   "note": "dance",
+   "nuance": "Noun of 踊る. Often traditional or folk dance (盆踊り). ダンス is used for modern/Western styles.",
+   "examples": [
+    {
+     "ja": "夏祭りで盆踊りを踊った。",
+     "en": "I danced the Bon dance at the summer festival."
+    },
+    {
+     "ja": "彼女の踊りはとても美しかった。",
+     "en": "Her dancing was very beautiful."
+    }
+   ],
+   "order": 55,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-55",
+   "meaningJa": "音楽などに合わせて、体を動かすこと。",
+   "nuanceJa": "「盆踊り」のように、伝統的な日本の踊りによく使う。現代的なものや西洋のものは「ダンス」と言うことが多い。動詞は「踊る」。"
+  },
+  {
+   "word": "謝る",
+   "reading": "あやまる",
+   "meaning": "to apologize",
+   "note": "apologize",
+   "nuance": "謝る = apologize to someone (友達に謝る). More casual than 謝罪する (formal apology, used in news and business).",
+   "examples": [
+    {
+     "ja": "遅刻したことを先生に謝った。",
+     "en": "I apologized to the teacher for being late."
+    },
+    {
+     "ja": "悪いと思ったら素直に謝るべきだ。",
+     "en": "If you think you were wrong, you should apologize sincerely."
+    }
+   ],
+   "order": 56,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-56",
+   "meaningJa": "自分が悪かったと認めて、相手に許しを求める。",
+   "nuanceJa": "「友達に謝る」のように日常で使う。ニュースやビジネスなどの改まった場面では「謝罪する」。"
+  },
+  {
+   "word": "科学",
+   "reading": "かがく",
+   "meaning": "science",
+   "note": "science",
+   "nuance": "Science in general (自然科学, 科学技術, 科学的). Same reading as 化学 (chemistry) — people sometimes say ばけがく for chemistry to avoid confusion.",
+   "examples": [
+    {
+     "ja": "科学の進歩によって生活が便利になった。",
+     "en": "Life has become more convenient thanks to scientific progress."
+    },
+    {
+     "ja": "その説は科学的に証明されていない。",
+     "en": "That theory hasn't been scientifically proven."
+    }
+   ],
+   "order": 57,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-57",
+   "meaningJa": "物事を観察や実験で調べ、決まりや仕組みを明らかにする学問。",
+   "nuanceJa": "「自然科学」「科学技術」「科学的」のように使う。「化学（かがく）」と同じ読みなので、化学を「ばけがく」と呼んで区別することもある。"
+  },
+  {
+   "word": "意識",
+   "reading": "いしき",
+   "meaning": "consciousness; awareness",
+   "note": "consciousness",
+   "nuance": "Being conscious (意識を失う = lose consciousness) and being aware of or paying attention to something (〜を意識する, 健康意識, 意識が高い).",
+   "examples": [
+    {
+     "ja": "彼は事故で一時意識を失った。",
+     "en": "He temporarily lost consciousness in the accident."
+    },
+    {
+     "ja": "最近、健康を意識して野菜を多く食べている。",
+     "en": "Lately I've been eating more vegetables with my health in mind."
+    }
+   ],
+   "order": 58,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-58",
+   "meaningJa": "起きていて、周りや自分のことがわかっている心の状態。また、あることを特に気にかけること。",
+   "nuanceJa": "「意識を失う」のような状態にも、「健康を意識する」「意識が高い」のように何かを気にかける意味にも使う。"
+  },
+  {
+   "word": "知識",
+   "reading": "ちしき",
+   "meaning": "knowledge",
+   "note": "knowledge",
+   "nuance": "知識を身につける (acquire knowledge), 知識が豊富 (very knowledgeable), 専門知識 (specialist knowledge). Compare 知恵 (wisdom, practical smarts).",
+   "examples": [
+    {
+     "ja": "この仕事には専門的な知識が必要だ。",
+     "en": "This job requires specialized knowledge."
+    },
+    {
+     "ja": "本を読んで歴史の知識を深めた。",
+     "en": "I deepened my knowledge of history by reading books."
+    }
+   ],
+   "order": 59,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-59",
+   "meaningJa": "学んだり経験したりして知っている内容。",
+   "nuanceJa": "「知識を身につける」「知識が豊富」「専門知識」のように使う。生活に役立つ考える力は「知恵」。"
+  },
+  {
+   "word": "できる限り",
+   "reading": "できるかぎり",
+   "meaning": "as much as possible; as far as one can",
+   "note": "as much as I",
+   "nuance": "Means 'to the best of one's ability'. Same as できるだけ, but slightly more formal. 限り = limit.",
+   "examples": [
+    {
+     "ja": "できる限りのことはやったので、後悔はない。",
+     "en": "I did everything I could, so I have no regrets."
+    },
+    {
+     "ja": "できる限り早くお返事いたします。",
+     "en": "I will reply as soon as possible."
+    }
+   ],
+   "order": 60,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-60",
+   "meaningJa": "可能な範囲で精いっぱい。",
+   "nuanceJa": "「できるだけ」と同じ意味だが、少し改まった言い方。「できる限りのことをする」のように名詞の前にも使える。"
+  },
+  {
+   "word": "余計",
+   "reading": "よけい",
+   "meaning": "unnecessary; extra; (adverb) all the more",
+   "note": "unnecessary",
+   "nuance": "な-adjective: 余計な心配 / 余計なお世話 (unneeded worry; 'mind your own business'). Adverb よけい(に) = all the more: ダメと言われるとよけいやりたくなる.",
+   "examples": [
+    {
+     "ja": "余計なことを言って、彼を怒らせてしまった。",
+     "en": "I said something unnecessary and made him angry."
+    },
+    {
+     "ja": "ダメと言われると、余計にやりたくなる。",
+     "en": "When I'm told I can't, I want to do it all the more."
+    }
+   ],
+   "order": 61,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-61",
+   "meaningJa": "必要以上で、むだな様子。また、ますます。",
+   "nuanceJa": "「余計な心配」「余計なお世話」のように「いらない」という意味で使う。副詞の「よけい（に）」は「なおさら」の意味で、「ダメと言われると、よけいやりたくなる」のように使う。"
+  },
+  {
+   "word": "欠点",
+   "reading": "けってん",
+   "meaning": "weak point; flaw; drawback",
+   "note": "weak point",
+   "nuance": "A defect or shortcoming of a person or thing. Opposites: 長所 / 利点. Similar: 短所 (personal weak point), 弱点 (weakness), 欠陥 (defect in a product).",
+   "examples": [
+    {
+     "ja": "彼の欠点は時間を守らないことだ。",
+     "en": "His flaw is that he isn't punctual."
+    },
+    {
+     "ja": "このアプリは便利だが、電池をよく使うのが欠点だ。",
+     "en": "This app is convenient, but its drawback is that it uses a lot of battery."
+    }
+   ],
+   "order": 62,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-62",
+   "meaningJa": "足りないところや、よくないところ。",
+   "nuanceJa": "人にも物にも使う。反対は「長所」「利点」。似た言葉に「短所」（人の悪いところ）、「弱点」（弱いところ）、「欠陥」（製品などの不具合）がある。"
+  },
+  {
+   "word": "性質",
+   "reading": "せいしつ",
+   "meaning": "nature; property; characteristic",
+   "note": "property, nature",
+   "nuance": "The inherent nature of a person or animal, or the properties of a substance (鉄は熱を伝えやすい性質がある). 性格 is personality (people only).",
+   "examples": [
+    {
+     "ja": "鉄は熱を伝えやすい性質を持っている。",
+     "en": "Iron has the property of conducting heat easily."
+    },
+    {
+     "ja": "この犬は穏やかな性質で、子どもにも優しい。",
+     "en": "This dog has a gentle nature and is kind even to children."
+    }
+   ],
+   "order": 63,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-63",
+   "meaningJa": "人や物が、もともと持っている特徴。",
+   "nuanceJa": "人や動物の生まれつきの特徴にも、「鉄は熱を伝えやすい性質がある」のように物質の特徴にも使う。人の気持ちや行動の特徴だけを言うなら「性格」。"
+  },
+  {
+   "word": "順調",
+   "reading": "じゅんちょう",
+   "meaning": "going smoothly; favorable; on track",
+   "note": "do fine, okay",
+   "nuance": "な-adjective / 順調に: things progressing as planned without problems — 仕事は順調です, 順調に回復している.",
+   "examples": [
+    {
+     "ja": "プロジェクトは今のところ順調に進んでいる。",
+     "en": "The project is going smoothly so far."
+    },
+    {
+     "ja": "新しい生活は順調で、毎日楽しく過ごしている。",
+     "en": "My new life is going well and I'm enjoying every day."
+    }
+   ],
+   "order": 64,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-64",
+   "meaningJa": "物事が問題なく、予定どおりに進んでいる様子。",
+   "nuanceJa": "「仕事は順調です」「順調に回復している」のように使う。"
+  },
+  {
+   "word": "扇風機",
+   "reading": "せんぷうき",
+   "meaning": "electric fan",
+   "note": "fan",
+   "nuance": "A standing or desk electric fan. A handheld fan is うちわ or 扇子 (folding fan); a ventilation fan is 換気扇.",
+   "examples": [
+    {
+     "ja": "暑いので扇風機をつけた。",
+     "en": "It was hot, so I turned on the fan."
+    },
+    {
+     "ja": "エアコンと扇風機を一緒に使うと効率がいい。",
+     "en": "Using the air conditioner together with a fan is efficient."
+    }
+   ],
+   "order": 65,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-65",
+   "meaningJa": "羽根を回して風を起こす電気の器具。",
+   "nuanceJa": "床や机に置く電気のものを指す。手であおぐものは「うちわ」や「扇子」、部屋の空気を入れ替えるものは「換気扇」。"
+  },
+  {
+   "word": "喫茶店",
+   "reading": "きっさてん",
+   "meaning": "coffee shop; café (traditional)",
+   "note": "coffee, tea shop",
+   "nuance": "A traditional Japanese café, often retro, serving coffee, toast and set meals. カフェ suggests a modern café.",
+   "examples": [
+    {
+     "ja": "駅前の喫茶店でコーヒーを飲みながら本を読んだ。",
+     "en": "I read a book while drinking coffee at a café in front of the station."
+    },
+    {
+     "ja": "あの喫茶店のモーニングセットは安くておいしい。",
+     "en": "That café's breakfast set is cheap and tasty."
+    }
+   ],
+   "order": 66,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-66",
+   "meaningJa": "コーヒーや紅茶、軽い食事などを出す店。",
+   "nuanceJa": "昔ながらのレトロな雰囲気の店をイメージさせ、トーストやモーニングセットを出すことが多い。「カフェ」はもっと現代的な店。"
+  },
+  {
+   "word": "単純",
+   "reading": "たんじゅん",
+   "meaning": "simple; uncomplicated; simple-minded",
+   "note": "simple",
+   "nuance": "な-adjective: not complicated (単純な仕組み, 単純計算). About people, it can mean naive or easily pleased (彼は単純だ). 簡単 = easy to do; 単純 = simple in structure.",
+   "examples": [
+    {
+     "ja": "仕組みは単純だが、とても便利な道具だ。",
+     "en": "Its mechanism is simple, but it's a very useful tool."
+    },
+    {
+     "ja": "褒められてすぐ喜ぶなんて、私も単純だな。",
+     "en": "Getting happy the moment I'm praised — I'm so easily pleased."
+    }
+   ],
+   "order": 67,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-67",
+   "meaningJa": "仕組みや形が簡単で、複雑でない様子。",
+   "nuanceJa": "「単純な仕組み」「単純計算」のように使う。人に使うと「素直で、すぐ影響される」という意味になる（彼は単純だ）。「簡単」はやりやすいこと、「単純」は作りが込み入っていないこと。"
+  },
+  {
+   "word": "真剣",
+   "reading": "しんけん",
+   "meaning": "serious; earnest",
+   "note": "Seriousness",
+   "nuance": "な-adjective for putting full effort and sincerity into something: 真剣な顔, 真剣に考える. まじめ describes a diligent personality; 真剣 describes the attitude in that moment.",
+   "examples": [
+    {
+     "ja": "将来のことを真剣に考える時期だ。",
+     "en": "It's time to think seriously about the future."
+    },
+    {
+     "ja": "みんな真剣な表情で説明を聞いていた。",
+     "en": "Everyone was listening to the explanation with serious faces."
+    }
+   ],
+   "order": 68,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-68",
+   "meaningJa": "本気で、まじめに物事に取り組む様子。",
+   "nuanceJa": "「真剣な顔」「真剣に考える」のように、その場での本気の態度に使う。「まじめ」はふだんの性格を表すことが多い。"
+  },
+  {
+   "word": "資源",
+   "reading": "しげん",
+   "meaning": "resources",
+   "note": "resourcse",
+   "nuance": "Natural resources (天然資源, 地下資源) and recycling (資源ごみ = recyclable waste). 人的資源 = human resources.",
+   "examples": [
+    {
+     "ja": "日本は天然資源が少ない国だ。",
+     "en": "Japan is a country with few natural resources."
+    },
+    {
+     "ja": "資源を大切にするため、リサイクルを心がけている。",
+     "en": "I try to recycle to conserve resources."
+    }
+   ],
+   "order": 69,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-69",
+   "meaningJa": "生活や産業のもとになる、自然の中の物や材料。",
+   "nuanceJa": "「天然資源」「地下資源」のほか、「資源ごみ」（リサイクルできるごみ）のようにも使う。「人的資源」は人材のこと。"
+  },
+  {
+   "word": "姿",
+   "reading": "すがた",
+   "meaning": "figure; appearance; form",
+   "note": "figure, look",
+   "nuance": "How someone or something looks (後ろ姿 = figure seen from behind, 着物姿 = dressed in kimono), and appearing or disappearing: 姿を見せる / 姿を消す.",
+   "examples": [
+    {
+     "ja": "彼は人混みの中に姿を消した。",
+     "en": "He disappeared into the crowd."
+    },
+    {
+     "ja": "一生懸命働く母の姿を見て育った。",
+     "en": "I grew up watching my mother work hard."
+    }
+   ],
+   "order": 70,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-70",
+   "meaningJa": "人や物の、見た目の形やありさま。",
+   "nuanceJa": "「後ろ姿」「着物姿」のように見た目を表すほか、「姿を見せる」「姿を消す」のように、現れる・いなくなるという意味でも使う。"
+  },
+  {
+   "word": "調節",
+   "reading": "ちょうせつ",
+   "meaning": "adjustment; regulation",
+   "note": "adjust",
+   "nuance": "Adjusting a level or amount to fit: 温度 / 音量 / 高さを調節する. Compare 調整 (coordinating schedules, fine-tuning plans).",
+   "examples": [
+    {
+     "ja": "エアコンの温度を調節してください。",
+     "en": "Please adjust the air conditioner's temperature."
+    },
+    {
+     "ja": "このいすは高さを調節できる。",
+     "en": "The height of this chair can be adjusted."
+    }
+   ],
+   "order": 71,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-71",
+   "meaningJa": "ちょうどよい状態になるように整えること。",
+   "nuanceJa": "「温度・音量・高さを調節する」のように、量や程度を合わせるときに使う。予定や計画を合わせるときは「調整」。"
+  },
+  {
+   "word": "不愉快",
+   "reading": "ふゆかい",
+   "meaning": "unpleasant; displeasing; offended",
+   "note": "unpleasant, displeased",
+   "nuance": "な-adjective for something that causes displeasure or offense, often about people's behavior: 不愉快な思いをする. More emotional than 不快 (which also covers physical discomfort).",
+   "examples": [
+    {
+     "ja": "彼の失礼な態度に不愉快な思いをした。",
+     "en": "I was offended by his rude attitude."
+    },
+    {
+     "ja": "ご不愉快な思いをおかけして、申し訳ございません。",
+     "en": "We sincerely apologize for causing you any displeasure."
+    }
+   ],
+   "order": 72,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-72",
+   "meaningJa": "いやな気分になる様子。",
+   "nuanceJa": "「不愉快な思いをする」のように、主に人の態度や言葉で気分を害したときに使い、感情がこもっている。「不快」は体の不快感にも使える。"
+  },
+  {
+   "word": "吸う",
+   "reading": "すう",
+   "meaning": "to inhale; to breathe in; to smoke; to suck; to absorb",
+   "note": "inhale",
+   "nuance": "息を吸う (breathe in), たばこを吸う (smoke), ストローで吸う (sip through a straw), 水を吸う (absorb water). Opposite: 吐く.",
+   "examples": [
+    {
+     "ja": "深く息を吸って、ゆっくり吐いてください。",
+     "en": "Breathe in deeply, then breathe out slowly."
+    },
+    {
+     "ja": "ここでたばこを吸わないでください。",
+     "en": "Please don't smoke here."
+    }
+   ],
+   "order": 73,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-73",
+   "meaningJa": "息や液体などを、口や鼻から体の中に引き入れる。",
+   "nuanceJa": "「息を吸う」「たばこを吸う」「ストローで吸う」のほか、「水を吸う」のように物がしみこませる意味にも使う。反対は「吐く」。"
+  },
+  {
+   "word": "応援",
+   "reading": "おうえん",
+   "meaning": "cheering; support",
+   "note": "cheering",
+   "nuance": "Cheering for a team or person (〜を応援する) or supporting someone's efforts (夢を応援する). 応援団 = cheer squad.",
+   "examples": [
+    {
+     "ja": "スタジアムで地元のチームを応援した。",
+     "en": "I cheered for the local team at the stadium."
+    },
+    {
+     "ja": "あなたの夢をずっと応援しているよ。",
+     "en": "I'll always be cheering for your dream."
+    }
+   ],
+   "order": 74,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-74",
+   "meaningJa": "声や拍手を送ったりして、人やチームを励まし、助けること。",
+   "nuanceJa": "「チームを応援する」のようなスポーツの声援にも、「夢を応援する」のように人の努力を支える意味にも使う。「応援団」は声援を送るグループ。"
+  },
+  {
+   "word": "噛む",
+   "reading": "かむ",
+   "meaning": "to bite; to chew",
+   "note": "to bite",
+   "nuance": "Chewing food (よく噛んで食べる) or biting (犬に噛まれる). Casual slang: to stumble over your words (セリフを噛む).",
+   "examples": [
+    {
+     "ja": "食べ物はよく噛んで食べましょう。",
+     "en": "Chew your food well when you eat."
+    },
+    {
+     "ja": "子どもの頃、近所の犬に手を噛まれた。",
+     "en": "As a child, I was bitten on the hand by a neighbor's dog."
+    }
+   ],
+   "order": 75,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-75",
+   "meaningJa": "歯で物をはさんだり、すりつぶしたりする。",
+   "nuanceJa": "「よく噛んで食べる」「犬に噛まれる」のように使う。会話では、うまく言えずに言葉がつかえることも「噛む」と言う（セリフを噛む）。"
+  },
+  {
+   "word": "食生活",
+   "reading": "しょくせいかつ",
+   "meaning": "eating habits; diet",
+   "note": "diet",
+   "nuance": "Your everyday eating pattern: 食生活を見直す / 改善する. Not 'diet' in the weight-loss sense (that is ダイエット).",
+   "examples": [
+    {
+     "ja": "健康のために食生活を見直すことにした。",
+     "en": "I decided to rethink my eating habits for my health."
+    },
+    {
+     "ja": "一人暮らしを始めてから、食生活が乱れてしまった。",
+     "en": "Since I started living alone, my eating habits have become irregular."
+    }
+   ],
+   "order": 76,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-76",
+   "meaningJa": "毎日の食事のとり方や内容。",
+   "nuanceJa": "「食生活を見直す」「食生活を改善する」のように使う。体重を減らすための「ダイエット」とは違う。"
+  },
+  {
+   "word": "知人",
+   "reading": "ちじん",
+   "meaning": "acquaintance",
+   "note": "",
+   "nuance": "Someone you know but aren't close to. More formal than 知り合い. 友人 = friend.",
+   "examples": [
+    {
+     "ja": "知人の紹介で今の会社に入った。",
+     "en": "I joined my current company through an acquaintance's introduction."
+    },
+    {
+     "ja": "このレストランは知人に教えてもらった。",
+     "en": "An acquaintance told me about this restaurant."
+    }
+   ],
+   "order": 77,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-77",
+   "meaningJa": "知っている人。",
+   "nuanceJa": "親しい友達ほどではない人に使い、「知り合い」より硬い言い方。親しい人は「友人」。"
+  },
+  {
+   "word": "異なる",
+   "reading": "ことなる",
+   "meaning": "to differ; to be different",
+   "note": "different",
+   "nuance": "Written/formal equivalent of 違う: 意見が異なる, 国によって異なる. Unlike 違う, it doesn't carry the sense 'wrong'.",
+   "examples": [
+    {
+     "ja": "文化によって習慣は大きく異なる。",
+     "en": "Customs differ greatly from culture to culture."
+    },
+    {
+     "ja": "二人の証言は少し異なっていた。",
+     "en": "The two people's testimonies were slightly different."
+    }
+   ],
+   "order": 78,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-78",
+   "meaningJa": "同じではない。",
+   "nuanceJa": "「意見が異なる」「国によって異なる」のように、書き言葉や改まった場面で使う。「違う」と違って、「まちがっている」という意味はない。"
+  },
+  {
+   "word": "贈り物",
+   "reading": "おくりもの",
+   "meaning": "gift; present",
+   "note": "gift, present",
+   "nuance": "Slightly more formal than プレゼント. 贈る = to give as a gift. お土産 = souvenir.",
+   "examples": [
+    {
+     "ja": "母の誕生日に花を贈り物にした。",
+     "en": "I gave my mother flowers as a birthday present."
+    },
+    {
+     "ja": "この時計は祖父からの大切な贈り物だ。",
+     "en": "This watch is a precious gift from my grandfather."
+    }
+   ],
+   "order": 79,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-79",
+   "meaningJa": "人にあげる品物。",
+   "nuanceJa": "「プレゼント」より少し改まった言い方。動詞は「贈る」。旅行先で買って帰るものは「お土産」。"
+  },
+  {
+   "word": "あふれる",
+   "reading": "あふれる",
+   "meaning": "to overflow; to be full of",
+   "note": "overflow",
+   "nuance": "Kanji 溢れる. Liquid spilling over (川があふれる), crowds (人であふれる), or feelings and qualities (涙 / 自信 / 笑顔にあふれる).",
+   "examples": [
+    {
+     "ja": "大雨で川の水があふれた。",
+     "en": "The river overflowed because of the heavy rain."
+    },
+    {
+     "ja": "週末の駅は観光客であふれていた。",
+     "en": "The station was overflowing with tourists on the weekend."
+    }
+   ],
+   "order": 80,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-80",
+   "meaningJa": "中に入りきらなくて、外にこぼれ出る。",
+   "nuanceJa": "水（川があふれる）、人（人であふれる）、気持ちや様子（涙・自信・笑顔にあふれる）など、いっぱいになる様子に広く使う。漢字は「溢れる」。"
+  },
+  {
+   "word": "月末",
+   "reading": "げつまつ",
+   "meaning": "end of the month",
+   "note": "at the end of month",
+   "nuance": "月末までに (by the end of the month), 月末払い (end-of-month payment). Opposite: 月初め (つきはじめ). 年末 = end of the year.",
+   "examples": [
+    {
+     "ja": "レポートは月末までに提出してください。",
+     "en": "Please submit the report by the end of the month."
+    },
+    {
+     "ja": "月末はいつも仕事が忙しい。",
+     "en": "Work is always busy at the end of the month."
+    }
+   ],
+   "order": 81,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-81",
+   "meaningJa": "その月の終わりのころ。",
+   "nuanceJa": "「月末までに」「月末払い」のように使う。反対は「月初め」。年の終わりは「年末」。"
+  },
+  {
+   "word": "重視",
+   "reading": "じゅうし",
+   "meaning": "placing importance on; prioritizing",
+   "note": "value,",
+   "nuance": "〜を重視する = treat as important, often in decisions or evaluations: 経験を重視する. Opposite: 軽視. Similar: 大切にする, 重んじる.",
+   "examples": [
+    {
+     "ja": "この会社は学歴よりも経験を重視している。",
+     "en": "This company values experience more than educational background."
+    },
+    {
+     "ja": "部屋を選ぶときは、駅からの距離を重視した。",
+     "en": "When choosing an apartment, I prioritized the distance from the station."
+    }
+   ],
+   "order": 82,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-82",
+   "meaningJa": "大切なものとして、重く見ること。",
+   "nuanceJa": "「〜を重視する」の形で、何かを選んだり評価したりするときによく使う。反対は「軽視」。似た言葉に「大切にする」「重んじる」がある。"
+  },
+  {
+   "word": "故障",
+   "reading": "こしょう",
+   "meaning": "breakdown; malfunction",
+   "note": "",
+   "nuance": "Machines breaking down: 故障する, 故障中 (out of order). 壊れる = break (physical damage). For your body, use 体を壊す or けが.",
+   "examples": [
+    {
+     "ja": "エレベーターが故障して、階段を使うしかなかった。",
+     "en": "The elevator broke down, so we had to take the stairs."
+    },
+    {
+     "ja": "このコピー機は故障中です。",
+     "en": "This copy machine is out of order."
+    }
+   ],
+   "order": 83,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-83",
+   "meaningJa": "機械などがこわれて、うまく動かなくなること。",
+   "nuanceJa": "「故障する」「故障中」のように機械に使う。物がこわれること全般は「壊れる」。体の調子が悪くなることは「体を壊す」と言う。"
+  },
+  {
+   "word": "行方",
+   "reading": "ゆくえ",
+   "meaning": "whereabouts; outcome",
+   "note": "whereabout of s1 or sth",
+   "nuance": "Where someone or something has gone: 行方が分からない, 行方不明 (missing). Also the course or outcome of events: 試合の行方.",
+   "examples": [
+    {
+     "ja": "その事件以来、彼の行方は分かっていない。",
+     "en": "His whereabouts have been unknown since that incident."
+    },
+    {
+     "ja": "選挙の行方に注目が集まっている。",
+     "en": "Attention is focused on how the election will turn out."
+    }
+   ],
+   "order": 84,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-84",
+   "meaningJa": "人や物が行った先。また、物事のこれからの成り行き。",
+   "nuanceJa": "「行方が分からない」「行方不明」のように居場所に使うほか、「試合の行方」のように、結果がどうなるかという意味でも使う。"
+  },
+  {
+   "word": "文句",
+   "reading": "もんく",
+   "meaning": "complaint; grumbling",
+   "note": "complain",
+   "nuance": "Mostly in 文句を言う (complain, grumble). 文句なし = flawless, nothing to complain about. 苦情 is a formal complaint to a company.",
+   "examples": [
+    {
+     "ja": "彼はいつも仕事の文句ばかり言っている。",
+     "en": "He's always complaining about work."
+    },
+    {
+     "ja": "この料理は文句なしにおいしい。",
+     "en": "This dish is delicious — no complaints at all."
+    }
+   ],
+   "order": 85,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-85",
+   "meaningJa": "相手に対する不満や苦情の言葉。",
+   "nuanceJa": "主に「文句を言う」の形で使う。「文句なし」は「欠点がなく、すばらしい」という意味。会社などに正式に伝える不満は「苦情」。"
+  },
+  {
+   "word": "乾燥",
+   "reading": "かんそう",
+   "meaning": "dryness; drying",
+   "note": "dry",
+   "nuance": "Noun / する-verb: 空気が乾燥する, 乾燥肌 (dry skin), 乾燥注意報 (dry-air warning). 乾く is the everyday verb.",
+   "examples": [
+    {
+     "ja": "冬は空気が乾燥しているので、のどが痛くなりやすい。",
+     "en": "The air is dry in winter, so my throat tends to get sore."
+    },
+    {
+     "ja": "洗った食器はよく乾燥させてからしまう。",
+     "en": "I dry washed dishes well before putting them away."
+    }
+   ],
+   "order": 86,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-86",
+   "meaningJa": "水分がなくなって、かわくこと。また、かわかすこと。",
+   "nuanceJa": "「空気が乾燥する」「乾燥肌」「乾燥注意報」のように使う、やや硬い言葉。日常の動詞は「乾く」。"
+  },
+  {
+   "word": "乾燥機",
+   "reading": "かんそうき",
+   "meaning": "dryer (clothes / dishes)",
+   "note": "drying machine",
+   "nuance": "A machine for drying clothes (衣類乾燥機) or dishes (食器乾燥機). Laundromats (コインランドリー) have 乾燥機.",
+   "examples": [
+    {
+     "ja": "雨の日は乾燥機で洗濯物を乾かす。",
+     "en": "On rainy days, I dry the laundry in the dryer."
+    },
+    {
+     "ja": "このシャツは乾燥機に入れると縮むので注意して。",
+     "en": "Be careful — this shirt shrinks in the dryer."
+    }
+   ],
+   "order": 87,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-87",
+   "meaningJa": "洗濯物や食器などを、熱や風でかわかす機械。",
+   "nuanceJa": "服をかわかす「衣類乾燥機」や「食器乾燥機」がある。コインランドリーにもある。"
+  },
+  {
+   "word": "整う",
+   "reading": "ととのう",
+   "meaning": "to be ready; to be in order; to be arranged",
+   "note": "ととのう. Be ready, be prepared",
+   "nuance": "Intransitive: things become ready or neatly arranged: 準備が整う, 環境が整う, 整った顔 (well-proportioned face). Transitive: 整える.",
+   "examples": [
+    {
+     "ja": "出発の準備が整った。",
+     "en": "Preparations for departure are complete."
+    },
+    {
+     "ja": "この大学は研究の環境が整っている。",
+     "en": "This university has a well-developed research environment."
+    }
+   ],
+   "order": 88,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-88",
+   "meaningJa": "きちんとそろって、必要な状態になる。",
+   "nuanceJa": "「準備が整う」「環境が整う」「整った顔」のように使う自動詞。他動詞は「整える」。"
+  },
+  {
+   "word": "同様",
+   "reading": "どうよう",
+   "meaning": "same; similar; likewise",
+   "note": "same, similar",
+   "nuance": "Formal: 〜と同様に (in the same way as), 同様の問題 (a similar problem). Close to 同じ, but 同様 means 'of the same kind or manner'.",
+   "examples": [
+    {
+     "ja": "今年も昨年と同様に、イベントを開催します。",
+     "en": "As in previous years, we will hold the event again this year."
+    },
+    {
+     "ja": "他の店でも同様の問題が起きている。",
+     "en": "Similar problems are happening at other stores too."
+    }
+   ],
+   "order": 89,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-89",
+   "meaningJa": "ほとんど同じであること。",
+   "nuanceJa": "「〜と同様に」「同様の問題」のように使う硬い言葉。「同じ」に近いが、「同様」は「同じような種類・やり方」という意味合い。"
+  },
+  {
+   "word": "電車賃",
+   "reading": "でんしゃちん",
+   "meaning": "train fare",
+   "note": "train tickets price",
+   "nuance": "賃 = fee or charge, as in 家賃 (rent) and 運賃 (fare). 電車賃 is casual; 運賃 is the official term.",
+   "examples": [
+    {
+     "ja": "電車賃を節約するために自転車で通っている。",
+     "en": "I commute by bike to save on train fare."
+    },
+    {
+     "ja": "東京までの電車賃はいくらですか。",
+     "en": "How much is the train fare to Tokyo?"
+    }
+   ],
+   "order": 90,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-90",
+   "meaningJa": "電車に乗るときに払うお金。",
+   "nuanceJa": "「賃」は代金の意味で、「家賃」「運賃」などにも使われる。「電車賃」は会話的な言い方で、正式には「運賃」。"
+  },
+  {
+   "word": "日程",
+   "reading": "にってい",
+   "meaning": "schedule; itinerary; dates",
+   "note": "date, time, schedule",
+   "nuance": "The schedule of days for an event, trip or meeting: 旅行の日程, 日程を調整する (coordinate dates). スケジュール is the general loanword; 予定 = individual plans.",
+   "examples": [
+    {
+     "ja": "会議の日程を調整しましょう。",
+     "en": "Let's coordinate the dates for the meeting."
+    },
+    {
+     "ja": "旅行の日程が決まったら教えてね。",
+     "en": "Let me know once the trip itinerary is decided."
+    }
+   ],
+   "order": 91,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-91",
+   "meaningJa": "行事や旅行、会議などの、日ごとの予定。",
+   "nuanceJa": "「旅行の日程」「日程を調整する」のように、何日に何をするかという計画全体を指す。一般的には「スケジュール」、一つ一つの予定は「予定」。"
+  },
+  {
+   "word": "甘やかす",
+   "reading": "あまやかす",
+   "meaning": "to spoil; to pamper; to indulge",
+   "note": "spoil",
+   "nuance": "To indulge someone too much (子どもを甘やかす). Related: 甘える (to act spoiled, rely on someone's kindness).",
+   "examples": [
+    {
+     "ja": "祖父母は孫をつい甘やかしてしまう。",
+     "en": "Grandparents tend to spoil their grandchildren."
+    },
+    {
+     "ja": "自分を甘やかさずに、毎日勉強を続けよう。",
+     "en": "Don't go easy on yourself — keep studying every day."
+    }
+   ],
+   "order": 92,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-92",
+   "meaningJa": "相手のわがままを許して、きびしくせずに大事にしすぎる。",
+   "nuanceJa": "「子どもを甘やかす」のように使い、よくない意味を含むことが多い。「甘える」は、人のやさしさに頼ってわがままを言ったりすること。"
+  },
+  {
+   "word": "しつこい",
+   "reading": "しつこい",
+   "meaning": "persistent; pushy; (of taste) too rich",
+   "note": "persistent",
+   "nuance": "い-adjective, usually negative: annoyingly persistent (しつこい勧誘 = pushy sales), or a cold that won't go away. For flavors, too heavy. For positive persistence, use 粘り強い.",
+   "examples": [
+    {
+     "ja": "しつこく電話をかけてくる営業に困っている。",
+     "en": "I'm bothered by salespeople who keep calling persistently."
+    },
+    {
+     "ja": "この風邪はしつこくて、なかなか治らない。",
+     "en": "This cold is stubborn and just won't go away."
+    }
+   ],
+   "order": 93,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-93",
+   "meaningJa": "いやになるほど何度も繰り返したり、なかなか離れなかったりする様子。",
+   "nuanceJa": "「しつこい勧誘」「しつこい風邪」のように、ふつうは悪い意味で使う。味が濃すぎて重いことにも使う。よい意味であきらめないことは「粘り強い」。"
+  },
+  {
+   "word": "監督",
+   "reading": "かんとく",
+   "meaning": "director; manager (sports); supervisor",
+   "note": "supervisor",
+   "nuance": "Film director (映画監督), sports team manager, or supervising work and exams (試験監督 = exam proctor).",
+   "examples": [
+    {
+     "ja": "その映画の監督は若い女性だ。",
+     "en": "The director of that film is a young woman."
+    },
+    {
+     "ja": "監督の指示でチームの作戦が変わった。",
+     "en": "The team's strategy changed on the manager's instructions."
+    }
+   ],
+   "order": 94,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-94",
+   "meaningJa": "上に立って、人や仕事を指図したり見張ったりすること。また、その人。",
+   "nuanceJa": "「映画監督」、スポーツチームの監督、試験を見張る「試験監督」のように使う。"
+  },
+  {
+   "word": "吐く",
+   "reading": "はく",
+   "meaning": "to exhale; to vomit; to spit",
+   "note": "exhale",
+   "nuance": "息を吐く (breathe out), 吐く / 吐き気がする (vomit / feel nauseous), つばを吐く (spit), 弱音を吐く (whine, complain). Opposite: 吸う.",
+   "examples": [
+    {
+     "ja": "ゆっくり息を吐いて、リラックスしてください。",
+     "en": "Breathe out slowly and relax."
+    },
+    {
+     "ja": "飲みすぎて気分が悪くなり、吐いてしまった。",
+     "en": "I drank too much, felt sick, and threw up."
+    }
+   ],
+   "order": 95,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-95",
+   "meaningJa": "口から息や物を外に出す。",
+   "nuanceJa": "「息を吐く」「つばを吐く」のほか、食べた物をもどす意味（気分が悪くて吐く、吐き気がする）でも使う。「弱音を吐く」は弱気なことを言うこと。反対は「吸う」。"
+  },
+  {
+   "word": "作業",
+   "reading": "さぎょう",
+   "meaning": "work; task; operation",
+   "note": "work",
+   "nuance": "Concrete, often manual or step-by-step work: 作業する, 作業中, 単純作業, 作業員 (worker). 仕事 is broader (job, work in general).",
+   "examples": [
+    {
+     "ja": "この作業は2時間くらいで終わる予定だ。",
+     "en": "This task should be finished in about two hours."
+    },
+    {
+     "ja": "道路で工事の作業が行われている。",
+     "en": "Construction work is being done on the road."
+    }
+   ],
+   "order": 96,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-96",
+   "meaningJa": "体や道具を使って、ある仕事をすること。また、その仕事。",
+   "nuanceJa": "「作業する」「作業中」「単純作業」「作業員」のように、具体的で手順のある仕事に使う。「仕事」はもっと広く、職業も含む。"
+  },
+  {
+   "word": "日課",
+   "reading": "にっか",
+   "meaning": "daily routine",
+   "note": "daily routine",
+   "nuance": "Something you do every day as a habit: 散歩を日課にしている. 習慣 = habit (not necessarily daily).",
+   "examples": [
+    {
+     "ja": "毎朝のジョギングが日課になっている。",
+     "en": "Jogging every morning has become my daily routine."
+    },
+    {
+     "ja": "寝る前に日記を書くのが祖母の日課だ。",
+     "en": "Writing in her diary before bed is my grandmother's daily routine."
+    }
+   ],
+   "order": 97,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-97",
+   "meaningJa": "毎日決まってすること。",
+   "nuanceJa": "「散歩を日課にしている」のように使う。毎日とは限らない、くり返しの行動やくせは「習慣」。"
+  },
+  {
+   "word": "整理",
+   "reading": "せいり",
+   "meaning": "sorting out; organizing; putting in order",
+   "note": "sorting, arrangements",
+   "nuance": "Putting things or information in order: 書類を整理する, 考えを整理する (sort out your thoughts), 整理整頓 (keeping things neat). 片付ける is more about tidying away.",
+   "examples": [
+    {
+     "ja": "引っ越す前に、いらない物を整理した。",
+     "en": "Before moving, I sorted out the things I didn't need."
+    },
+    {
+     "ja": "考えを整理してから話してください。",
+     "en": "Please organize your thoughts before you speak."
+    }
+   ],
+   "order": 98,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-98",
+   "meaningJa": "乱れているものを、きちんと分けて整えること。",
+   "nuanceJa": "「書類を整理する」のように物にも、「考えを整理する」のように頭の中のことにも使う。「整理整頓」は身の回りをきれいに整えること。「片付ける」はしまうことに重点がある。"
+  },
+  {
+   "word": "削る",
+   "reading": "けずる",
+   "meaning": "to shave; to sharpen; to cut down",
+   "note": "reduce, eliminate",
+   "nuance": "Literal: shave or sharpen (鉛筆を削る). Figurative: cut costs, time or parts (予算を削る, 睡眠時間を削る).",
+   "examples": [
+    {
+     "ja": "睡眠時間を削って試験勉強をした。",
+     "en": "I cut into my sleep to study for the exam."
+    },
+    {
+     "ja": "会社は経費を削る方針だ。",
+     "en": "The company plans to cut expenses."
+    }
+   ],
+   "order": 99,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-99",
+   "meaningJa": "刃物などで表面を少しずつ薄く取り去る。また、一部を減らす。",
+   "nuanceJa": "「鉛筆を削る」のほか、「予算を削る」「睡眠時間を削る」のように、お金や時間を減らす意味でもよく使う。"
+  },
+  {
+   "word": "恐れる",
+   "reading": "おそれる",
+   "meaning": "to fear; to be afraid of",
+   "note": "be afraid, fear",
+   "nuance": "More formal/written than 怖がる: 失敗を恐れる, 〜を恐れて (for fear of). 〜恐れがある = there is a risk that (common in news).",
+   "examples": [
+    {
+     "ja": "失敗を恐れずに挑戦してみよう。",
+     "en": "Let's take on the challenge without fearing failure."
+    },
+    {
+     "ja": "台風が上陸する恐れがある。",
+     "en": "There is a risk that the typhoon will make landfall."
+    }
+   ],
+   "order": 100,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-100",
+   "meaningJa": "こわいと思う。また、悪いことが起こるのを心配する。",
+   "nuanceJa": "「失敗を恐れる」「〜を恐れて」のように、「怖がる」より硬い言い方。「〜恐れがある」は「〜する危険がある」という意味で、ニュースでよく使われる。"
+  },
+  {
+   "word": "おそらく",
+   "reading": "おそらく",
+   "meaning": "probably; perhaps",
+   "note": "probably",
+   "nuance": "Kanji 恐らく. A formal/written 'probably', often with 〜だろう / 〜でしょう. More formal than たぶん.",
+   "examples": [
+    {
+     "ja": "おそらく明日は雨になるでしょう。",
+     "en": "It will probably rain tomorrow."
+    },
+    {
+     "ja": "彼はおそらくまだ寝ているだろう。",
+     "en": "He's probably still asleep."
+    }
+   ],
+   "order": 101,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-101",
+   "meaningJa": "はっきりとは言えないが、たぶん。",
+   "nuanceJa": "「おそらく〜だろう／でしょう」の形でよく使う、「たぶん」より改まった言い方。漢字は「恐らく」。"
+  },
+  {
+   "word": "検討",
+   "reading": "けんとう",
+   "meaning": "consideration; examination; review",
+   "note": "considering",
+   "nuance": "Carefully examining options before deciding: 検討する, 検討中 (under review). In business, 前向きに検討します can be a polite non-commitment.",
+   "examples": [
+    {
+     "ja": "その提案について、社内で検討します。",
+     "en": "We will review that proposal internally."
+    },
+    {
+     "ja": "いくつかの案を比較・検討した結果、A案に決めた。",
+     "en": "After comparing and examining several proposals, we chose Plan A."
+    }
+   ],
+   "order": 102,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-102",
+   "meaningJa": "よいかどうか、いろいろな面からよく調べて考えること。",
+   "nuanceJa": "「検討する」「検討中」のように、決める前によく考える場面で使う。ビジネスの「前向きに検討します」は、丁寧に返事を先延ばしにする表現のこともある。"
+  },
+  {
+   "word": "表",
+   "reading": "おもて",
+   "meaning": "front side; surface; outside",
+   "note": "surface",
+   "nuance": "Read おもて: the front of something (紙の表, opposite 裏), or outdoors (表で遊ぶ). Read ひょう, the same kanji means a table or chart (時刻表 = timetable).",
+   "examples": [
+    {
+     "ja": "紙の表に名前を、裏に住所を書いてください。",
+     "en": "Write your name on the front of the paper and your address on the back."
+    },
+    {
+     "ja": "子どもたちは表で元気に遊んでいる。",
+     "en": "The children are playing happily outside."
+    }
+   ],
+   "order": 103,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-103",
+   "meaningJa": "物の、外側に見えている面。また、家の外。",
+   "nuanceJa": "「おもて」と読むと、紙の表（反対は「裏」）や「表で遊ぶ」（外で遊ぶ）の意味。「ひょう」と読むと、「時刻表」のような一覧の表の意味になる。"
+  },
+  {
+   "word": "防ぐ",
+   "reading": "ふせぐ",
+   "meaning": "to prevent; to protect against",
+   "note": "prevent, protect",
+   "nuance": "Stopping something bad from happening or getting in: 事故を防ぐ, 寒さを防ぐ, 感染を防ぐ. Similar: 予防する (prevent, especially illness).",
+   "examples": [
+    {
+     "ja": "手を洗うことで風邪を防ぐことができる。",
+     "en": "You can prevent colds by washing your hands."
+    },
+    {
+     "ja": "事故を防ぐために、安全確認を徹底している。",
+     "en": "We carry out thorough safety checks to prevent accidents."
+    }
+   ],
+   "order": 104,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-104",
+   "meaningJa": "悪いことが起こったり、入ってきたりしないようにする。",
+   "nuanceJa": "「事故を防ぐ」「寒さを防ぐ」「感染を防ぐ」のように使う。病気を前もって防ぐ場合は「予防する」とも言う。"
+  },
+  {
+   "word": "需要",
+   "reading": "じゅよう",
+   "meaning": "demand",
+   "note": "demand",
+   "nuance": "Economic demand: 需要が高い / 需要が増える. 需要と供給 = supply and demand (note the Japanese order is demand–supply). Opposite: 供給.",
+   "examples": [
+    {
+     "ja": "最近、電気自動車の需要が増えている。",
+     "en": "Demand for electric cars has been increasing recently."
+    },
+    {
+     "ja": "価格は需要と供給のバランスで決まる。",
+     "en": "Prices are set by the balance of supply and demand."
+    }
+   ],
+   "order": 105,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-105",
+   "meaningJa": "商品やサービスを、買いたい・使いたいと求めること。",
+   "nuanceJa": "「需要が高い」「需要が増える」のように経済の話で使う。反対は「供給」。「需要と供給」の順番で言う。"
+  },
+  {
+   "word": "現れる",
+   "reading": "あらわれる",
+   "meaning": "to appear; to show up",
+   "note": "appear",
+   "nuance": "Someone or something comes into view (彼が現れる) or results show up (効果が現れる). Transitive: 現す (姿を現す). Different kanji 表れる = feelings show (顔に表れる).",
+   "examples": [
+    {
+     "ja": "約束の時間を過ぎて、彼はやっと現れた。",
+     "en": "Well after the agreed time, he finally showed up."
+    },
+    {
+     "ja": "薬の効果が現れるまで少し時間がかかる。",
+     "en": "It takes a little time for the medicine to take effect."
+    }
+   ],
+   "order": 106,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-106",
+   "meaningJa": "見えなかったものが、見えるようになる。姿を見せる。",
+   "nuanceJa": "人が来る（彼が現れる）ことにも、結果が出る（効果が現れる）ことにも使う。他動詞は「現す」（姿を現す）。気持ちが顔などに出ることは「表れる」と書く。"
+  },
+  {
+   "word": "溺れる",
+   "reading": "おぼれる",
+   "meaning": "to drown; to be absorbed in",
+   "note": "drowing លង់ទឹក",
+   "nuance": "Drowning or nearly drowning (川で溺れる — doesn't necessarily mean dying). Figurative: to indulge in (酒に溺れる, 恋に溺れる).",
+   "examples": [
+    {
+     "ja": "子どもが川で溺れているのを見て、すぐに助けを呼んだ。",
+     "en": "When I saw a child drowning in the river, I called for help right away."
+    },
+    {
+     "ja": "彼は失恋してから酒に溺れるようになった。",
+     "en": "After his breakup, he started drowning himself in alcohol."
+    }
+   ],
+   "order": 107,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-107",
+   "meaningJa": "水の中で泳げずに、苦しんだり沈んだりする。",
+   "nuanceJa": "「川で溺れる」のように使い、必ずしも死ぬことは意味しない。「酒に溺れる」「恋に溺れる」のように、何かに夢中になりすぎて抜け出せない意味でも使う。"
+  },
+  {
+   "word": "加える",
+   "reading": "くわえる",
+   "meaning": "to add; to include; to inflict",
+   "note": "add",
+   "nuance": "Adding something to something else (塩を加える, メンバーに加える). Also inflicting harm (危害を加える). Intransitive: 加わる (to join, be added).",
+   "examples": [
+    {
+     "ja": "スープに塩を少し加えてください。",
+     "en": "Please add a little salt to the soup."
+    },
+    {
+     "ja": "新しいメンバーをチームに加えた。",
+     "en": "We added a new member to the team."
+    }
+   ],
+   "order": 108,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-108",
+   "meaningJa": "あるものに、別のものを付け足す。",
+   "nuanceJa": "「塩を加える」「メンバーに加える」のように使う。「危害を加える」は害を与えること。自動詞は「加わる」。"
+  },
+  {
+   "word": "多め",
+   "reading": "おおめ",
+   "meaning": "a bit more than usual; on the generous side",
+   "note": "plenty of,",
+   "nuance": "Somewhat more than the usual amount: ご飯を多めに炊く, 時間を多めに見る. Opposite: 少なめ. Don't confuse with 大目に見る (overlook, let it slide).",
+   "examples": [
+    {
+     "ja": "お客さんが来るので、ご飯を多めに炊いた。",
+     "en": "Guests were coming, so I cooked extra rice."
+    },
+    {
+     "ja": "移動時間は多めに見ておいたほうがいい。",
+     "en": "It's better to allow a bit of extra travel time."
+    }
+   ],
+   "order": 109,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-109",
+   "meaningJa": "普通より少し上回るくらいの量。",
+   "nuanceJa": "「ご飯を多めに炊く」「時間を多めに見る」のように使う。反対は「少なめ」。「大目に見る」（大きな心で許す）とは別の言葉なので注意。"
+  },
+  {
+   "word": "にぎやか",
+   "reading": "にぎやか",
+   "meaning": "lively; bustling",
+   "note": "",
+   "nuance": "な-adjective (賑やか): lively with people or sound (にぎやかな町, にぎやかな家族). Positive; うるさい is the negative 'noisy'.",
+   "examples": [
+    {
+     "ja": "駅前はいつも人が多くてにぎやかだ。",
+     "en": "The area in front of the station is always crowded and lively."
+    },
+    {
+     "ja": "正月は親戚が集まってにぎやかだった。",
+     "en": "New Year's was lively with all the relatives together."
+    }
+   ],
+   "order": 110,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-110",
+   "meaningJa": "人や音が多く、活気がある様子。",
+   "nuanceJa": "「にぎやかな町」「にぎやかな家族」のように、よい意味で使う。悪い意味で音が大きいときは「うるさい」。漢字は「賑やか」。"
+  },
+  {
+   "word": "登山",
+   "reading": "とざん",
+   "meaning": "mountain climbing; hiking up a mountain",
+   "note": "mountain climbing",
+   "nuance": "Climbing a mountain as an activity: 登山する, 登山客 (climbers), 富士登山. For light walks, ハイキング.",
+   "examples": [
+    {
+     "ja": "夏休みに友達と富士山へ登山に行った。",
+     "en": "I went climbing Mt. Fuji with friends during summer vacation."
+    },
+    {
+     "ja": "登山の前には天気をよく確認しよう。",
+     "en": "Check the weather carefully before going mountain climbing."
+    }
+   ],
+   "order": 111,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-111",
+   "meaningJa": "山に登ること。",
+   "nuanceJa": "「登山する」「登山客」「富士登山」のように、活動としての山登りに使う。軽い山歩きは「ハイキング」。"
+  },
+  {
+   "word": "満員電車",
+   "reading": "まんいんでんしゃ",
+   "meaning": "crowded (packed) train",
+   "note": "crowded train",
+   "nuance": "満員 = full to capacity (満員のバス, 満員御礼 = sold out). 満員電車 is the classic packed rush-hour train.",
+   "examples": [
+    {
+     "ja": "毎朝満員電車に乗るのは本当に疲れる。",
+     "en": "Riding a packed train every morning is really tiring."
+    },
+    {
+     "ja": "満員電車を避けるために早く出勤している。",
+     "en": "I go to work early to avoid crowded trains."
+    }
+   ],
+   "order": 112,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-112",
+   "meaningJa": "乗客がいっぱいで、こみあっている電車。",
+   "nuanceJa": "「満員」は定員いっぱいのこと（満員のバス、満員御礼）。「満員電車」は朝や夕方のラッシュのぎゅうぎゅうの電車を言う代表的な言葉。"
+  },
+  {
+   "word": "不快",
+   "reading": "ふかい",
+   "meaning": "unpleasant; discomfort",
+   "note": "unpleasant, discomfort",
+   "nuance": "な-adjective / noun for an unpleasant feeling, physical or emotional: 不快な音, 不快感, 不快指数 (discomfort index for heat and humidity). More neutral than 不愉快.",
+   "examples": [
+    {
+     "ja": "湿度が高くて不快な一日だった。",
+     "en": "It was an uncomfortable day with high humidity."
+    },
+    {
+     "ja": "相手に不快な思いをさせないよう、言葉を選んだ。",
+     "en": "I chose my words carefully so as not to make the other person uncomfortable."
+    }
+   ],
+   "order": 113,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-113",
+   "meaningJa": "気持ちや体の感じがよくないこと。",
+   "nuanceJa": "「不快な音」「不快感」「不快指数」のように、心にも体にも使う。「不愉快」より感情が少なく、中立的な言い方。"
+  },
+  {
+   "word": "体操",
+   "reading": "たいそう",
+   "meaning": "exercises; calisthenics; gymnastics",
+   "note": "exercises",
+   "nuance": "Light exercises (ラジオ体操, 準備体操 = warm-up) or the sport of gymnastics (体操選手 = gymnast).",
+   "examples": [
+    {
+     "ja": "泳ぐ前に準備体操をしましょう。",
+     "en": "Let's do warm-up exercises before swimming."
+    },
+    {
+     "ja": "毎朝ラジオ体操をするのが祖父の日課だ。",
+     "en": "Doing radio exercises every morning is my grandfather's routine."
+    }
+   ],
+   "order": 114,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-114",
+   "meaningJa": "体をきたえたり、ほぐしたりするための運動。また、それを競うスポーツ。",
+   "nuanceJa": "「ラジオ体操」「準備体操」のような軽い運動にも、競技の体操（体操選手）にも使う。"
+  },
+  {
+   "word": "飛ぶ",
+   "reading": "とぶ",
+   "meaning": "to fly; to be blown away",
+   "note": "fly",
+   "nuance": "Moving through the air (鳥が飛ぶ, 飛行機が飛ぶ) or being blown away (帽子が飛ぶ). 跳ぶ (same reading) means to jump or leap.",
+   "examples": [
+    {
+     "ja": "空を飛ぶ鳥を見ていると、自由な気分になる。",
+     "en": "Watching birds fly in the sky makes me feel free."
+    },
+    {
+     "ja": "風で帽子が飛んでいってしまった。",
+     "en": "My hat got blown away by the wind."
+    }
+   ],
+   "order": 115,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-115",
+   "meaningJa": "空中を移動する。また、風などで空中に運ばれる。",
+   "nuanceJa": "「鳥が飛ぶ」「飛行機が飛ぶ」「帽子が飛ぶ」のように使う。同じ読みの「跳ぶ」は、地面をけってはねること（ジャンプ）。"
+  },
+  {
+   "word": "初級",
+   "reading": "しょきゅう",
+   "meaning": "beginner level",
+   "note": "",
+   "nuance": "Level labels: 初級 (beginner) → 中級 (intermediate) → 上級 (advanced). Used for courses, textbooks and skill levels (初級者 = beginner).",
+   "examples": [
+    {
+     "ja": "初級のクラスから日本語を勉強し始めた。",
+     "en": "I started studying Japanese in the beginner class."
+    },
+    {
+     "ja": "このテキストは初級者向けだ。",
+     "en": "This textbook is for beginners."
+    }
+   ],
+   "order": 116,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-116",
+   "meaningJa": "学習や技術などの、一番はじめの段階。",
+   "nuanceJa": "「初級→中級→上級」の順にレベルを表し、講座や教科書、技能に使う。はじめたばかりの人は「初級者」。"
+  },
+  {
+   "word": "中級",
+   "reading": "ちゅうきゅう",
+   "meaning": "intermediate level",
+   "note": "",
+   "nuance": "Level labels: 初級 → 中級 → 上級. 中級者 = intermediate learner/player.",
+   "examples": [
+    {
+     "ja": "中級になると、文法が急に難しくなる。",
+     "en": "Once you reach the intermediate level, grammar suddenly gets harder."
+    },
+    {
+     "ja": "中級レベルの英会話クラスに申し込んだ。",
+     "en": "I signed up for an intermediate-level English conversation class."
+    }
+   ],
+   "order": 117,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-117",
+   "meaningJa": "初級と上級の間の、まん中の段階。",
+   "nuanceJa": "「初級→中級→上級」のレベルの一つ。「中級者」はある程度できる人。"
+  },
+  {
+   "word": "叫ぶ",
+   "reading": "さけぶ",
+   "meaning": "to shout; to cry out; to yell",
+   "note": "shout, cry, yell",
+   "nuance": "Shouting loudly, often from emotion (「助けて！」と叫ぶ). Also figurative: loudly calling for something (改革を叫ぶ). 怒鳴る = shout angrily at someone.",
+   "examples": [
+    {
+     "ja": "彼は「火事だ！」と大声で叫んだ。",
+     "en": "He shouted at the top of his voice, \"Fire!\""
+    },
+    {
+     "ja": "ゴールが決まると、観客は喜びの声を上げて叫んだ。",
+     "en": "When the goal was scored, the crowd cried out with joy."
+    }
+   ],
+   "order": 118,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-118",
+   "meaningJa": "大きな声を出す。",
+   "nuanceJa": "「『助けて！』と叫ぶ」のように、強い気持ちから大声を出すときに使う。「改革を叫ぶ」のように、強く主張する意味もある。怒って大声を出すのは「怒鳴る」。"
+  },
+  {
+   "word": "上級",
+   "reading": "じょうきゅう",
+   "meaning": "advanced level",
+   "note": "",
+   "nuance": "Level labels: 初級 → 中級 → 上級. 上級者 = advanced learner/player. 上級生 = senior student.",
+   "examples": [
+    {
+     "ja": "来年は上級クラスに進みたい。",
+     "en": "I want to move up to the advanced class next year."
+    },
+    {
+     "ja": "このゲームは上級者でもクリアするのが難しい。",
+     "en": "This game is hard to beat even for advanced players."
+    }
+   ],
+   "order": 119,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-119",
+   "meaningJa": "学習や技術などの、高い段階。",
+   "nuanceJa": "「初級→中級→上級」のレベルの一つ。「上級者」は上手な人、「上級生」は学年が上の生徒。"
+  },
+  {
+   "word": "絶滅",
+   "reading": "ぜつめつ",
+   "meaning": "extinction",
+   "note": "extinct",
+   "nuance": "Noun / する-verb for a species dying out: 絶滅する, 絶滅危惧種 (endangered species), 絶滅の危機 (danger of extinction).",
+   "examples": [
+    {
+     "ja": "恐竜は約6600万年前に絶滅した。",
+     "en": "Dinosaurs went extinct about 66 million years ago."
+    },
+    {
+     "ja": "この動物は絶滅の危機にある。",
+     "en": "This animal is in danger of extinction."
+    }
+   ],
+   "order": 120,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-120",
+   "meaningJa": "生き物の種類が、すっかり滅びてなくなること。",
+   "nuanceJa": "「絶滅する」「絶滅危惧種」「絶滅の危機」のように使う。"
+  },
+  {
+   "word": "重ねる",
+   "reading": "かさねる",
+   "meaning": "to stack; to pile up; to repeat",
+   "note": "stack",
+   "nuance": "Stacking objects (皿を重ねる), layering clothes (服を重ねて着る), or accumulating/repeating (経験を重ねる, 年を重ねる = grow older). Intransitive: 重なる.",
+   "examples": [
+    {
+     "ja": "洗ったお皿を棚に重ねて置いた。",
+     "en": "I stacked the washed plates on the shelf."
+    },
+    {
+     "ja": "練習を何度も重ねて、本番に臨んだ。",
+     "en": "After practicing over and over, I went into the real performance."
+    }
+   ],
+   "order": 121,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-121",
+   "meaningJa": "物の上に、さらに同じような物を載せる。また、同じことを何度も繰り返す。",
+   "nuanceJa": "「皿を重ねる」「服を重ねて着る」のほか、「経験を重ねる」「年を重ねる」のように積み重ねる意味でも使う。自動詞は「重なる」。"
+  },
+  {
+   "word": "育児",
+   "reading": "いくじ",
+   "meaning": "childcare; raising children",
+   "note": "child care",
+   "nuance": "Raising your own children: 育児休業 (育休, parental leave), 育児と仕事の両立 (balancing work and childcare). 子育て is the everyday word.",
+   "examples": [
+    {
+     "ja": "彼は育児休業を取って、子どもの世話をしている。",
+     "en": "He took parental leave and is looking after his child."
+    },
+    {
+     "ja": "育児と仕事を両立するのは大変だ。",
+     "en": "Balancing childcare and work is tough."
+    }
+   ],
+   "order": 122,
+   "updatedAt": 0,
+   "srs": {
+    "jp": null,
+    "en": null
+   },
+   "id": "starter-122",
+   "meaningJa": "子どもを育てること。",
+   "nuanceJa": "「育児休業（育休）」「育児と仕事の両立」のように、やや硬い場面で使う。日常的には「子育て」。"
+  }
+ ]
+}
