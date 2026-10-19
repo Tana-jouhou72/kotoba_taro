@@ -18,7 +18,7 @@ const ICON = {
 
 /* ---------- settings (per device) ---------- */
 const SETTINGS_KEY = 'kotoba-settings';
-const DEFAULTS = { workerUrl: '', password: '', newPerDay: 10, notifyTime: '20:00', pushOn: false, theme: 'auto', english: 'show', transLang: 'en', lastSync: 0 };
+const DEFAULTS = { workerUrl: '', password: '', newPerDay: 10, notifyTime: '20:00', pushOn: false, theme: 'auto', english: 'show', transLang: 'en', autoLevel: 'off', lastSync: 0 };
 function loadSettings() {
   try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}') }; }
   catch { return { ...DEFAULTS }; }
@@ -76,6 +76,52 @@ async function dedupeWords() {
   }
   if (changed.length) await saveCards(changed);
   return changed.length;
+}
+/* ---------- automatic words from a built-in JLPT list ----------
+   When fewer than 3 days of unlearned words are left, the next words from the chosen list are added
+   (fixed ids, so two devices adding the same word never make a duplicate). Only the words coming up
+   in the next two days are sent to the AI, not the whole list. Words you delete never come back. */
+const AUTO_COUNTS = { N5: 710, N4: 666, N3: 2103, N2: 1898, N1: 2685 };
+const listCache = {};
+let autoBusy = false;
+async function autoWords() {
+  const lvl = settings.autoLevel;
+  if (!lvl || lvl === 'off' || autoBusy) return 0;
+  autoBusy = true;
+  let added = 0;
+  try {
+    const per = perDay();
+    const unstarted = () => live().filter((c) => !SRS.stateOf(c, 'jp')).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+    let fresh = unstarted();
+    const want = per * 3;
+    if (fresh.length < want) {
+      if (!listCache[lvl]) {
+        const res = await fetch(`lists/${lvl.toLowerCase()}.json`);
+        if (!res.ok) throw new Error(`Could not load the ${lvl} word list`);
+        listCache[lvl] = (await res.json()).words;
+      }
+      const known = new Set(cards.map((c) => c.word)); // includes deleted words
+      const add = [];
+      let order = nextOrder();
+      const list = listCache[lvl];
+      for (let i = 0; i < list.length && fresh.length + add.length < want; i++) {
+        const [word, reading, meaning] = list[i];
+        if (known.has(word)) continue;
+        add.push(newCard({ id: `jlpt-${lvl}-${i}`, word, reading, meaning, note: '', order: order++, source: lvl, updatedAt: 1 }));
+      }
+      if (add.length) { await saveCards(add); added = add.length; }
+      fresh = unstarted();
+    }
+    if (settings.workerUrl && !enriching) {
+      const soon = fresh.slice(0, per * 2).filter((c) => !hasAI(c));
+      if (soon.length) runEnrich(soon);
+    }
+  } catch (e) {
+    console.warn('auto words:', e);
+  } finally {
+    autoBusy = false;
+  }
+  return added;
 }
 function nextOrder() { return cards.reduce((m, c) => Math.max(m, c.order ?? 0), 0) + 1; }
 function newCard(fields) {
@@ -365,7 +411,7 @@ function toast(msg, kind = '', ms = 3200) {
 function highlight(sentence, word) {
   const s = esc(sentence);
   const candidates = [];
-  for (const part of String(word || '').split(/[、,/]/)) {
+  for (const part of String(word || '').split(/[、,/・]/)) {
     const w = part.trim().replace(/^[ー〜~]/, '');
     if (!w) continue;
     candidates.push(w);
@@ -380,7 +426,7 @@ function highlight(sentence, word) {
   }
   return s;
 }
-function speakText(c) { return c.word.replace(/^[ー〜~]/, '').split(/[、,]/)[0]; }
+function speakText(c) { return c.word.replace(/^[ー〜～~]/, '').replace(/\([^)]*\)/g, '').split(/[、,・]/)[0]; }
 
 function detailHTML(c) {
   const showReading = c.reading && c.reading !== c.word;
@@ -521,6 +567,7 @@ function startOrRenderSession(dir) {
 function endSession(goHome = true) {
   session = null;
   scheduleSync(800);
+  autoWords();
   if (goHome) location.hash = '#/';
 }
 function currentCard() {
@@ -739,7 +786,7 @@ function renderSettings() {
         </div>` : `<div class="stack"><span class="muted small">This browser doesn't support push notifications. Use Chrome or Edge, and install the app to your home screen.</span></div>`}
       </div>
 
-      <h2>Daily reading lesson</h2>
+      <h2>Level, words &amp; daily lesson</h2>
       <div class="card-group" id="lessonSettings"></div>
 
       <h2>Data &amp; backup</h2>
@@ -1020,7 +1067,11 @@ document.addEventListener('visibilitychange', () => {
   }
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   if (settings.workerUrl) {
-    syncNow(true);
-    loadLessonCfg().then(() => { if (route().name === 'home') render(); }).catch(() => {});
+    syncNow(true)
+      .then(() => loadLessonCfg().catch(() => {}))
+      .then(() => autoWords())
+      .then(() => { if (route().name === 'home') render(); });
+  } else {
+    autoWords().then(() => { if (route().name === 'home') render(); });
   }
 })();

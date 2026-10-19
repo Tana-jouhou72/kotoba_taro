@@ -49,7 +49,11 @@ function scheduleText(cfg) {
 async function loadLessonCfg() {
   const r = await api('/lesson/settings');
   lessonCfg = r.settings;
-  if (lessonCfg.lang && lessonCfg.lang !== settings.transLang) { settings.transLang = lessonCfg.lang; saveSettings(); }
+  if ((lessonCfg.lang || 'en') !== settings.transLang || (lessonCfg.autoLevel || 'off') !== settings.autoLevel) {
+    settings.transLang = lessonCfg.lang || 'en';
+    settings.autoLevel = lessonCfg.autoLevel || 'off';
+    saveSettings();
+  }
   return lessonCfg;
 }
 
@@ -85,8 +89,15 @@ function renderLessonSettings(box) {
           <option value="km" ${cfg.lang === 'km' ? 'selected' : ''}>ខ្មែរ (Khmer)</option>
         </select>
       </div>
+      <div class="row">
+        <div class="lbl">Add new words automatically<small>When your unlearned words run low, the app adds the next words from a JLPT list, and AI fills them in. Word lists: open-anki-jlpt-decks (MIT), based on Jonathan Waller's JLPT lists (tanos.co.uk, CC BY).</small></div>
+        <select id="lsAuto">
+          <option value="off" ${(cfg.autoLevel || 'off') === 'off' ? 'selected' : ''}>Off — only my words</option>
+          ${Object.entries(AUTO_COUNTS).map(([l, n]) => `<option value="${l}" ${cfg.autoLevel === l ? 'selected' : ''}>JLPT ${l} list (${n} words)</option>`).join('')}
+        </select>
+      </div>
       <div class="stack">
-        <div class="btn-row"><button class="btn primary" id="lsSave">Save schedule</button></div>
+        <div class="btn-row"><button class="btn primary" id="lsSave">Save</button></div>
         <span class="muted small">The notification goes to every device where the daily reminder is turned on.</span>
       </div>`;
     $$('.day', box).forEach((b) => (b.onclick = () => {
@@ -102,11 +113,14 @@ function renderLessonSettings(box) {
           time: $('#lsTime', box).value || '20:00',
           level: $('#lsLevel', box).value,
           lang: $('#lsLang', box).value,
+          autoLevel: $('#lsAuto', box).value,
           tz: Intl.DateTimeFormat().resolvedOptions().timeZone || 'Asia/Tokyo',
         });
         lessonCfg = r.settings;
         settings.transLang = lessonCfg.lang || 'en';
+        settings.autoLevel = lessonCfg.autoLevel || 'off';
         saveSettings();
+        autoWords().then((n) => { if (n) toast(`Added ${n} words from the JLPT ${settings.autoLevel} list`); });
         toast(lessonCfg.enabled ? `Saved — ${scheduleText(lessonCfg)}` : 'Saved — daily lessons are off');
       } catch (e) { toast(oldWorkerMsg(e), 'err'); }
     };
