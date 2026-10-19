@@ -90,12 +90,13 @@ function renderLessonSettings(box) {
         </select>
       </div>
       <div class="row">
-        <div class="lbl">Add new words automatically<small>When your unlearned words run low, the app adds the next words from a JLPT list, and AI fills them in. Word lists: open-anki-jlpt-decks (MIT), based on Jonathan Waller's JLPT lists (tanos.co.uk, CC BY).</small></div>
+        <div class="lbl">JLPT word list<small>Shows a “＋ Add ${ADD_BATCH} words” button on the Study and Words screens. Tap it whenever you want more words; AI fills them in. Word lists: open-anki-jlpt-decks (MIT), based on Jonathan Waller's JLPT lists (tanos.co.uk, CC BY).</small></div>
         <select id="lsAuto">
-          <option value="off" ${(cfg.autoLevel || 'off') === 'off' ? 'selected' : ''}>Off — only my words</option>
+          <option value="off" ${(cfg.autoLevel || 'off') === 'off' ? 'selected' : ''}>Off — I add my own words</option>
           ${Object.entries(AUTO_COUNTS).map(([l, n]) => `<option value="${l}" ${cfg.autoLevel === l ? 'selected' : ''}>JLPT ${l} list (${n} words)</option>`).join('')}
         </select>
       </div>
+
       <div class="stack">
         <div class="btn-row"><button class="btn primary" id="lsSave">Save</button></div>
         <span class="muted small">The notification goes to every device where the daily reminder is turned on.</span>
@@ -120,7 +121,7 @@ function renderLessonSettings(box) {
         settings.transLang = lessonCfg.lang || 'en';
         settings.autoLevel = lessonCfg.autoLevel || 'off';
         saveSettings();
-        autoWords().then((n) => { if (n) toast(`Added ${n} words from the JLPT ${settings.autoLevel} list`); });
+        if (settings.autoLevel !== 'off') loadList(settings.autoLevel).catch(() => {});
         toast(lessonCfg.enabled ? `Saved — ${scheduleText(lessonCfg)}` : 'Saved — daily lessons are off');
       } catch (e) { toast(oldWorkerMsg(e), 'err'); }
     };

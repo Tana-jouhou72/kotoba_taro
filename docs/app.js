@@ -77,51 +77,82 @@ async function dedupeWords() {
   if (changed.length) await saveCards(changed);
   return changed.length;
 }
-/* ---------- automatic words from a built-in JLPT list ----------
-   When fewer than 3 days of unlearned words are left, the next words from the chosen list are added
-   (fixed ids, so two devices adding the same word never make a duplicate). Only the words coming up
-   in the next two days are sent to the AI, not the whole list. Words you delete never come back. */
+/* ---------- built-in JLPT word lists: "+ Add 50 words" button ----------
+   Adds the next 50 words from the chosen list, in a fixed shuffled order (same on every device), with
+   fixed ids (jlpt-<level>-<index>) so two devices never create duplicates. Words already in the deck,
+   or deleted before, are skipped. The AI then fills in the new words. */
 const AUTO_COUNTS = { N5: 710, N4: 666, N3: 2103, N2: 1898, N1: 2685 };
+const ADD_BATCH = 50;
 const listCache = {};
-let autoBusy = false;
-async function autoWords() {
-  const lvl = settings.autoLevel;
-  if (!lvl || lvl === 'off' || autoBusy) return 0;
-  autoBusy = true;
-  let added = 0;
-  try {
-    const per = perDay();
-    const unstarted = () => live().filter((c) => !SRS.stateOf(c, 'jp')).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
-    let fresh = unstarted();
-    const want = per * 3;
-    if (fresh.length < want) {
-      if (!listCache[lvl]) {
-        const res = await fetch(`lists/${lvl.toLowerCase()}.json`);
-        if (!res.ok) throw new Error(`Could not load the ${lvl} word list`);
-        listCache[lvl] = (await res.json()).words;
-      }
-      const known = new Set(cards.map((c) => c.word)); // includes deleted words
-      const add = [];
-      let order = nextOrder();
-      const list = listCache[lvl];
-      for (let i = 0; i < list.length && fresh.length + add.length < want; i++) {
-        const [word, reading, meaning] = list[i];
-        if (known.has(word)) continue;
-        add.push(newCard({ id: `jlpt-${lvl}-${i}`, word, reading, meaning, note: '', order: order++, source: lvl, updatedAt: 1 }));
-      }
-      if (add.length) { await saveCards(add); added = add.length; }
-      fresh = unstarted();
-    }
-    if (settings.workerUrl && !enriching) {
-      const soon = fresh.slice(0, per * 2).filter((c) => !hasAI(c));
-      if (soon.length) runEnrich(soon);
-    }
-  } catch (e) {
-    console.warn('auto words:', e);
-  } finally {
-    autoBusy = false;
+let addingWords = false;
+
+async function loadList(lvl) {
+  if (!listCache[lvl]) {
+    const res = await fetch(`lists/${lvl.toLowerCase()}.json`);
+    if (!res.ok) throw new Error(`Could not load the ${lvl} word list.`);
+    listCache[lvl] = (await res.json()).words;
   }
-  return added;
+  return listCache[lvl];
+}
+function listLeft(lvl) {
+  const list = listCache[lvl];
+  if (!list) return null;
+  const known = new Set(cards.map((c) => c.word));
+  return list.filter(([w]) => !known.has(w)).length;
+}
+async function addListWords(n = ADD_BATCH) {
+  const lvl = settings.autoLevel;
+  if (!lvl || lvl === 'off' || addingWords) return 0;
+  addingWords = true;
+  try {
+    const list = await loadList(lvl);
+    const known = new Set(cards.map((c) => c.word)); // includes deleted words
+    const add = [];
+    let order = nextOrder();
+    for (let i = 0; i < list.length && add.length < n; i++) {
+      const [word, reading, meaning] = list[i];
+      if (known.has(word)) continue;
+      add.push(newCard({ id: `jlpt-${lvl}-${i}`, word, reading, meaning, note: '', order: order++, source: lvl, updatedAt: 1 }));
+    }
+    if (!add.length) { toast(`You already have every word from the JLPT ${lvl} list.`); return 0; }
+    await saveCards(add);
+    toast(`Added ${add.length} words from the JLPT ${lvl} list`);
+    if (!session) render();
+    if (settings.workerUrl) runEnrich(add); // fill them in with AI (8 words per request)
+    return add.length;
+  } catch (e) {
+    toast(e.message, 'err');
+    return 0;
+  } finally {
+    addingWords = false;
+  }
+}
+/* If an earlier AI fill was interrupted, finish the next two days' words quietly. */
+function fillUpcoming() {
+  if (!settings.workerUrl || enriching) return;
+  const soon = live().filter((c) => !SRS.stateOf(c, 'jp')).sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+    .slice(0, perDay() * 2).filter((c) => !hasAI(c));
+  if (soon.length) runEnrich(soon);
+}
+function wordStats() {
+  const all = live();
+  const learned = all.filter((c) => c.srs && (c.srs.jp || c.srs.en)).length;
+  return { total: all.length, learned, unlearned: all.length - learned };
+}
+function wordStatsHTML() {
+  const s = wordStats();
+  const lvl = settings.autoLevel && settings.autoLevel !== 'off' ? settings.autoLevel : '';
+  const left = lvl ? listLeft(lvl) : null;
+  return `
+    <div class="panel words-panel">
+      <div class="wstats">
+        <div class="wstat learned"><b>${s.learned}</b><span>Learned</span></div>
+        <div class="wstat unlearned"><b>${s.unlearned}</b><span>Not learned yet</span></div>
+        <div class="wstat"><b>${s.total}</b><span>Total</span></div>
+      </div>
+      ${lvl ? `<button class="btn primary block" data-add-list ${addingWords ? 'disabled' : ''}>＋ Add ${ADD_BATCH} words from JLPT ${lvl}</button>
+        <div class="muted small wleft">${left === null ? '' : left ? `${left} words left in the ${lvl} list` : `All ${lvl} words added ✓`}</div>` : ''}
+    </div>`;
 }
 function nextOrder() { return cards.reduce((m, c) => Math.max(m, c.order ?? 0), 0) + 1; }
 function newCard(fields) {
@@ -498,7 +529,8 @@ function renderHome() {
         <h2>No words yet</h2>
         <p class="muted">Load the starter deck made from your word list, or add your own.</p>
         <div class="btn-row" style="justify-content:center">
-          <button class="btn primary" id="starterBtn">Load starter deck</button>
+          ${settings.autoLevel && settings.autoLevel !== 'off' ? `<button class="btn primary" data-add-list>＋ Add ${ADD_BATCH} words from JLPT ${settings.autoLevel}</button>` : ''}
+          <button class="btn ${settings.autoLevel && settings.autoLevel !== 'off' ? '' : 'primary'}" id="starterBtn">Load starter deck</button>
           <button class="btn" id="bulkBtn">Paste words</button>
           <button class="btn ghost" id="importBtn">Import file</button>
         </div>
@@ -540,7 +572,8 @@ function renderHome() {
       ${deck('jp', '日本語', trName())}
       ${deck('en', trName(), '日本語')}
     </div>
-    ${missing && settings.workerUrl ? `<div class="panel"><h2>${missing} words need explanations</h2><p class="muted small">AI can fill in the Japanese 意味 &amp; ニュアンス, the ${isKm() ? 'Khmer' : 'English'} nuance and two example sentences.</p><button class="btn" id="fillAll">✦ Fill in with AI</button></div>` : ''}
+    ${wordStatsHTML()}
+    ${missing && settings.workerUrl && !enriching ? `<div class="panel"><h2>${missing} words need explanations</h2><p class="muted small">AI can fill in the Japanese 意味 &amp; ニュアンス, the ${isKm() ? 'Khmer' : 'English'} nuance and two example sentences.</p><button class="btn" id="fillAll">✦ Fill in with AI</button></div>` : ''}
     ${!settings.workerUrl ? `<div class="panel"><h2>Finish setup</h2><p class="muted small">Connect your free server to get daily notifications, AI examples, and sync between your phone and PC.</p><a class="btn" href="#/settings">Open settings</a></div>` : ''}
     <div class="home-foot">
       <button class="btn" id="addBtn">＋ Add word</button>
@@ -567,7 +600,6 @@ function startOrRenderSession(dir) {
 function endSession(goHome = true) {
   session = null;
   scheduleSync(800);
-  autoWords();
   if (goHome) location.hash = '#/';
 }
 function currentCard() {
@@ -700,6 +732,7 @@ function renderWords() {
       <button class="btn primary" id="addBtn">＋ Add</button>
       <button class="btn" id="bulkBtn">Paste many</button>
     </div>
+    ${q ? '' : wordStatsHTML()}
     <div class="list-meta">
       <span>${list.length} of ${all.length} words · newest first</span>
       ${missing.length ? `<button class="btn sm" id="fillAll" ${settings.workerUrl ? '' : 'disabled title="Set up the server first"'}>✦ Fill ${missing.length} with AI</button>` : ''}
@@ -1003,6 +1036,14 @@ function initBulk() {
 document.addEventListener('click', (e) => {
   const sp = e.target.closest('[data-speak]');
   if (sp) { e.stopPropagation(); speak(sp.dataset.speak); return; }
+  const al = e.target.closest('[data-add-list]');
+  if (al) {
+    e.stopPropagation();
+    al.disabled = true;
+    al.innerHTML = '<span class="spinner"></span> Adding…';
+    addListWords().then(() => { if (!session) render(); });
+    return;
+  }
   const et = e.target.closest('[data-en-toggle]');
   if (et) {
     e.stopPropagation();
@@ -1069,9 +1110,9 @@ document.addEventListener('visibilitychange', () => {
   if (settings.workerUrl) {
     syncNow(true)
       .then(() => loadLessonCfg().catch(() => {}))
-      .then(() => autoWords())
-      .then(() => { if (route().name === 'home') render(); });
-  } else {
-    autoWords().then(() => { if (route().name === 'home') render(); });
+      .then(() => { fillUpcoming(); if (route().name === 'home') render(); });
+  }
+  if (settings.autoLevel && settings.autoLevel !== 'off') {
+    loadList(settings.autoLevel).then(() => { if (['home', 'words'].includes(route().name) && !session) render(); }).catch(() => {});
   }
 })();
